@@ -10,7 +10,14 @@ import SwiftUI
 struct Tabs: View {
     var body: some View {
         TabView{
-            
+            Feed().tabItem {
+                Image(systemName: "text.below.photo.fill.rtl")
+                Text("Feed")
+            }
+            Profile().tabItem {
+                Image(systemName: "person")
+                Text("Profile")
+            }
         }
     }
 }
