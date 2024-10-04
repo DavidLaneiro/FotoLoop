@@ -20,6 +20,8 @@
 		12DCF7302CB00389003C4E91 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF72F2CB00389003C4E91 /* Profile.swift */; };
 		12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7312CB003C0003C4E91 /* CreatePost.swift */; };
 		12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7332CB003C9003C4E91 /* EditProfile.swift */; };
+		12DCF7362CB00435003C4E91 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7352CB00435003C4E91 /* Colors.swift */; };
+		12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7372CB00762003C4E91 /* ColorsUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		12DCF72F2CB00389003C4E91 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		12DCF7312CB003C0003C4E91 /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
 		12DCF7332CB003C9003C4E91 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		12DCF7352CB00435003C4E91 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		12DCF7372CB00762003C4E91 /* ColorsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,7 @@
 		12DCF7212CB001C1003C4E91 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				12DCF7372CB00762003C4E91 /* ColorsUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 		12DCF7222CB001CC003C4E91 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				12DCF7352CB00435003C4E91 /* Colors.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -316,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
+				12DCF7362CB00435003C4E91 /* Colors.swift in Sources */,
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
+				12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */,
 				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
 				12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */,
 				12DCF72E2CB00381003C4E91 /* Feed.swift in Sources */,
