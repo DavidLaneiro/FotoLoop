@@ -11,7 +11,7 @@ import SwiftUI
 struct FotoLoopApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Tabs()
         }
     }
 }

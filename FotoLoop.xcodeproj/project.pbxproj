@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF6F42CAFFEA5003C4E91 /* FotoLoopApp.swift */; };
-		12DCF6F72CAFFEA5003C4E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF6F62CAFFEA5003C4E91 /* ContentView.swift */; };
 		12DCF6F92CAFFEA6003C4E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DCF6F82CAFFEA6003C4E91 /* Assets.xcassets */; };
 		12DCF6FC2CAFFEA6003C4E91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DCF6FB2CAFFEA6003C4E91 /* Preview Assets.xcassets */; };
 		12DCF7062CAFFEA7003C4E91 /* FotoLoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7052CAFFEA7003C4E91 /* FotoLoopTests.swift */; };
@@ -31,6 +30,7 @@
 		12DCF7472CB00A03003C4E91 /* PostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7462CB00A03003C4E91 /* PostDetails.swift */; };
 		12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7482CB00A75003C4E91 /* FLTitle.swift */; };
 		12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF74A2CB00A86003C4E91 /* FLContentText.swift */; };
+		12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF74D2CB00B39003C4E91 /* Tabs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,6 @@
 /* Begin PBXFileReference section */
 		12DCF6F12CAFFEA5003C4E91 /* FotoLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DCF6F42CAFFEA5003C4E91 /* FotoLoopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoLoopApp.swift; sourceTree = "<group>"; };
-		12DCF6F62CAFFEA5003C4E91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12DCF6F82CAFFEA6003C4E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12DCF6FB2CAFFEA6003C4E91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12DCF7012CAFFEA6003C4E91 /* FotoLoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoLoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +77,7 @@
 		12DCF7462CB00A03003C4E91 /* PostDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetails.swift; sourceTree = "<group>"; };
 		12DCF7482CB00A75003C4E91 /* FLTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTitle.swift; sourceTree = "<group>"; };
 		12DCF74A2CB00A86003C4E91 /* FLContentText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLContentText.swift; sourceTree = "<group>"; };
+		12DCF74D2CB00B39003C4E91 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +135,9 @@
 				12DCF71F2CB001B4003C4E91 /* ViewModels */,
 				12DCF71E2CB001AB003C4E91 /* Views */,
 				12DCF6F42CAFFEA5003C4E91 /* FotoLoopApp.swift */,
-				12DCF6F62CAFFEA5003C4E91 /* ContentView.swift */,
 				12DCF6F82CAFFEA6003C4E91 /* Assets.xcassets */,
 				12DCF6FA2CAFFEA6003C4E91 /* Preview Content */,
+				12DCF74D2CB00B39003C4E91 /* Tabs.swift */,
 			);
 			path = FotoLoop;
 			sourceTree = "<group>";
@@ -369,13 +369,13 @@
 				12DCF7362CB00435003C4E91 /* Colors.swift in Sources */,
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
 				12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */,
+				12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */,
 				12DCF73D2CB00964003C4E91 /* FLButton.swift in Sources */,
 				12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */,
 				12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */,
 				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
 				12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */,
 				12DCF72E2CB00381003C4E91 /* Feed.swift in Sources */,
-				12DCF6F72CAFFEA5003C4E91 /* ContentView.swift in Sources */,
 				12DCF72C2CB00379003C4E91 /* Register.swift in Sources */,
 				12DCF7432CB009B8003C4E91 /* FLPost.swift in Sources */,
 				12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */,
