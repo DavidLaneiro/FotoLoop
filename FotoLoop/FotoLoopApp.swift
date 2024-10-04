@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct FotoLoopApp: App {
+        
     var body: some Scene {
         WindowGroup {
             Tabs()
         }
     }
+}
+
+#Preview {
+    Tabs()
 }
