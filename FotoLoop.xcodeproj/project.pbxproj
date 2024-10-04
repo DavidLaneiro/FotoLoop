@@ -14,6 +14,12 @@
 		12DCF7062CAFFEA7003C4E91 /* FotoLoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7052CAFFEA7003C4E91 /* FotoLoopTests.swift */; };
 		12DCF7102CAFFEA7003C4E91 /* FotoLoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF70F2CAFFEA7003C4E91 /* FotoLoopUITests.swift */; };
 		12DCF7122CAFFEA7003C4E91 /* FotoLoopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7112CAFFEA7003C4E91 /* FotoLoopUITestsLaunchTests.swift */; };
+		12DCF72A2CB00370003C4E91 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7292CB00370003C4E91 /* Login.swift */; };
+		12DCF72C2CB00379003C4E91 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF72B2CB00379003C4E91 /* Register.swift */; };
+		12DCF72E2CB00381003C4E91 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF72D2CB00381003C4E91 /* Feed.swift */; };
+		12DCF7302CB00389003C4E91 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF72F2CB00389003C4E91 /* Profile.swift */; };
+		12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7312CB003C0003C4E91 /* CreatePost.swift */; };
+		12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7332CB003C9003C4E91 /* EditProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		12DCF70B2CAFFEA7003C4E91 /* FotoLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DCF70F2CAFFEA7003C4E91 /* FotoLoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoLoopUITests.swift; sourceTree = "<group>"; };
 		12DCF7112CAFFEA7003C4E91 /* FotoLoopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoLoopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12DCF7292CB00370003C4E91 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		12DCF72B2CB00379003C4E91 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		12DCF72D2CB00381003C4E91 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		12DCF72F2CB00389003C4E91 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		12DCF7312CB003C0003C4E91 /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
+		12DCF7332CB003C9003C4E91 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +147,12 @@
 		12DCF71E2CB001AB003C4E91 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				12DCF7292CB00370003C4E91 /* Login.swift */,
+				12DCF72B2CB00379003C4E91 /* Register.swift */,
+				12DCF72D2CB00381003C4E91 /* Feed.swift */,
+				12DCF72F2CB00389003C4E91 /* Profile.swift */,
+				12DCF7312CB003C0003C4E91 /* CreatePost.swift */,
+				12DCF7332CB003C9003C4E91 /* EditProfile.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,7 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
+				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
+				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
+				12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */,
+				12DCF72E2CB00381003C4E91 /* Feed.swift in Sources */,
 				12DCF6F72CAFFEA5003C4E91 /* ContentView.swift in Sources */,
+				12DCF72C2CB00379003C4E91 /* Register.swift in Sources */,
 				12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
