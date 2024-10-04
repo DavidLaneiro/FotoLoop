@@ -22,6 +22,15 @@
 		12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7332CB003C9003C4E91 /* EditProfile.swift */; };
 		12DCF7362CB00435003C4E91 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7352CB00435003C4E91 /* Colors.swift */; };
 		12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7372CB00762003C4E91 /* ColorsUtils.swift */; };
+		12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF73A2CB0094E003C4E91 /* FLTextField.swift */; };
+		12DCF73D2CB00964003C4E91 /* FLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF73C2CB00964003C4E91 /* FLButton.swift */; };
+		12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF73E2CB00970003C4E91 /* FLOutlinedButton.swift */; };
+		12DCF7412CB009A6003C4E91 /* FLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7402CB009A6003C4E91 /* FLList.swift */; };
+		12DCF7432CB009B8003C4E91 /* FLPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7422CB009B8003C4E91 /* FLPost.swift */; };
+		12DCF7452CB009CA003C4E91 /* FLImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7442CB009CA003C4E91 /* FLImagePicker.swift */; };
+		12DCF7472CB00A03003C4E91 /* PostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7462CB00A03003C4E91 /* PostDetails.swift */; };
+		12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7482CB00A75003C4E91 /* FLTitle.swift */; };
+		12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF74A2CB00A86003C4E91 /* FLContentText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,15 @@
 		12DCF7332CB003C9003C4E91 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
 		12DCF7352CB00435003C4E91 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		12DCF7372CB00762003C4E91 /* ColorsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUtils.swift; sourceTree = "<group>"; };
+		12DCF73A2CB0094E003C4E91 /* FLTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTextField.swift; sourceTree = "<group>"; };
+		12DCF73C2CB00964003C4E91 /* FLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLButton.swift; sourceTree = "<group>"; };
+		12DCF73E2CB00970003C4E91 /* FLOutlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLOutlinedButton.swift; sourceTree = "<group>"; };
+		12DCF7402CB009A6003C4E91 /* FLList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLList.swift; sourceTree = "<group>"; };
+		12DCF7422CB009B8003C4E91 /* FLPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLPost.swift; sourceTree = "<group>"; };
+		12DCF7442CB009CA003C4E91 /* FLImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLImagePicker.swift; sourceTree = "<group>"; };
+		12DCF7462CB00A03003C4E91 /* PostDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetails.swift; sourceTree = "<group>"; };
+		12DCF7482CB00A75003C4E91 /* FLTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTitle.swift; sourceTree = "<group>"; };
+		12DCF74A2CB00A86003C4E91 /* FLContentText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLContentText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,7 @@
 		12DCF6F32CAFFEA5003C4E91 /* FotoLoop */ = {
 			isa = PBXGroup;
 			children = (
+				12DCF7392CB008FF003C4E91 /* Components */,
 				12DCF7222CB001CC003C4E91 /* Constants */,
 				12DCF7212CB001C1003C4E91 /* Utils */,
 				12DCF7202CB001BB003C4E91 /* Models */,
@@ -157,6 +176,7 @@
 				12DCF72F2CB00389003C4E91 /* Profile.swift */,
 				12DCF7312CB003C0003C4E91 /* CreatePost.swift */,
 				12DCF7332CB003C9003C4E91 /* EditProfile.swift */,
+				12DCF7462CB00A03003C4E91 /* PostDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +209,29 @@
 				12DCF7352CB00435003C4E91 /* Colors.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		12DCF7392CB008FF003C4E91 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				12DCF74C2CB00A8D003C4E91 /* UI */,
+				12DCF7402CB009A6003C4E91 /* FLList.swift */,
+				12DCF7422CB009B8003C4E91 /* FLPost.swift */,
+				12DCF7442CB009CA003C4E91 /* FLImagePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		12DCF74C2CB00A8D003C4E91 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				12DCF74A2CB00A86003C4E91 /* FLContentText.swift */,
+				12DCF7482CB00A75003C4E91 /* FLTitle.swift */,
+				12DCF73E2CB00970003C4E91 /* FLOutlinedButton.swift */,
+				12DCF73C2CB00964003C4E91 /* FLButton.swift */,
+				12DCF73A2CB0094E003C4E91 /* FLTextField.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,15 +365,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
+				12DCF7452CB009CA003C4E91 /* FLImagePicker.swift in Sources */,
 				12DCF7362CB00435003C4E91 /* Colors.swift in Sources */,
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
+				12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */,
+				12DCF73D2CB00964003C4E91 /* FLButton.swift in Sources */,
+				12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */,
 				12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */,
 				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
 				12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */,
 				12DCF72E2CB00381003C4E91 /* Feed.swift in Sources */,
 				12DCF6F72CAFFEA5003C4E91 /* ContentView.swift in Sources */,
 				12DCF72C2CB00379003C4E91 /* Register.swift in Sources */,
+				12DCF7432CB009B8003C4E91 /* FLPost.swift in Sources */,
+				12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */,
+				12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */,
 				12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */,
+				12DCF7412CB009A6003C4E91 /* FLList.swift in Sources */,
+				12DCF7472CB00A03003C4E91 /* PostDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
