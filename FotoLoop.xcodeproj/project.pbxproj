@@ -170,13 +170,8 @@
 		12DCF71E2CB001AB003C4E91 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				12DCF7292CB00370003C4E91 /* Login.swift */,
-				12DCF72B2CB00379003C4E91 /* Register.swift */,
-				12DCF72D2CB00381003C4E91 /* Feed.swift */,
-				12DCF72F2CB00389003C4E91 /* Profile.swift */,
-				12DCF7312CB003C0003C4E91 /* CreatePost.swift */,
-				12DCF7332CB003C9003C4E91 /* EditProfile.swift */,
-				12DCF7462CB00A03003C4E91 /* PostDetails.swift */,
+				12DCF7502CB00BA8003C4E91 /* Authenticated */,
+				12DCF74F2CB00B9C003C4E91 /* Auth */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,6 +227,35 @@
 				12DCF73A2CB0094E003C4E91 /* FLTextField.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		12DCF74F2CB00B9C003C4E91 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				12DCF72B2CB00379003C4E91 /* Register.swift */,
+				12DCF7292CB00370003C4E91 /* Login.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		12DCF7502CB00BA8003C4E91 /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				12DCF7512CB00BB8003C4E91 /* Actions */,
+				12DCF72F2CB00389003C4E91 /* Profile.swift */,
+				12DCF72D2CB00381003C4E91 /* Feed.swift */,
+				12DCF7462CB00A03003C4E91 /* PostDetails.swift */,
+			);
+			path = Authenticated;
+			sourceTree = "<group>";
+		};
+		12DCF7512CB00BB8003C4E91 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				12DCF7332CB003C9003C4E91 /* EditProfile.swift */,
+				12DCF7312CB003C0003C4E91 /* CreatePost.swift */,
+			);
+			path = Actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
