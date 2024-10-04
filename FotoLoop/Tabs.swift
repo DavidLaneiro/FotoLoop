@@ -18,7 +18,7 @@ struct Tabs: View {
                 Image(systemName: "person")
                 Text("Profile")
             }
-        }
+        }.tint(Colors.sandyBrownOrange300)
     }
 }
 
