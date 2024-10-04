@@ -10,6 +10,7 @@ import SwiftUI
 
 struct FLLogo: View {
     
+    // It has to remain White
     let logoColor : Color = Colors.white
     
     var body: some View {
