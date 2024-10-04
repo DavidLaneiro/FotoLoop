@@ -31,6 +31,7 @@
 		12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7482CB00A75003C4E91 /* FLTitle.swift */; };
 		12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF74A2CB00A86003C4E91 /* FLContentText.swift */; };
 		12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF74D2CB00B39003C4E91 /* Tabs.swift */; };
+		12DCF7552CB02A23003C4E91 /* FLLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7542CB02A23003C4E91 /* FLLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		12DCF7482CB00A75003C4E91 /* FLTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTitle.swift; sourceTree = "<group>"; };
 		12DCF74A2CB00A86003C4E91 /* FLContentText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLContentText.swift; sourceTree = "<group>"; };
 		12DCF74D2CB00B39003C4E91 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		12DCF7542CB02A23003C4E91 /* FLLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 				12DCF73E2CB00970003C4E91 /* FLOutlinedButton.swift */,
 				12DCF73C2CB00964003C4E91 /* FLButton.swift */,
 				12DCF73A2CB0094E003C4E91 /* FLTextField.swift */,
+				12DCF7542CB02A23003C4E91 /* FLLogo.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				12DCF72E2CB00381003C4E91 /* Feed.swift in Sources */,
 				12DCF72C2CB00379003C4E91 /* Register.swift in Sources */,
 				12DCF7432CB009B8003C4E91 /* FLPost.swift in Sources */,
+				12DCF7552CB02A23003C4E91 /* FLLogo.swift in Sources */,
 				12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */,
 				12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */,
 				12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */,

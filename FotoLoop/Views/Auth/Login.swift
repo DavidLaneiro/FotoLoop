@@ -11,7 +11,8 @@ struct Login: View {
     var body: some View {
         ZStack{
             LinearGradient(colors: [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500], startPoint: .topLeading, endPoint: .bottomTrailing)
-            Text("This is the Login Page!")
+            FLLogo()
+            
         }
     }
 }
