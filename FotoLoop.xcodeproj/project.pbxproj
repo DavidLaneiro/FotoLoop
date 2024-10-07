@@ -40,6 +40,7 @@
 		12DCF7622CB3F2F3003C4E91 /* PostDetailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7612CB3F2F3003C4E91 /* PostDetailsUITests.swift */; };
 		12DCF7652CB3F358003C4E91 /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7642CB3F358003C4E91 /* LoginUITests.swift */; };
 		12DCF7672CB3F364003C4E91 /* RegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF7662CB3F364003C4E91 /* RegisterUITests.swift */; };
+		12DCF76E2CB433DC003C4E91 /* FLTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF76D2CB433DC003C4E91 /* FLTextFieldStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		12DCF7612CB3F2F3003C4E91 /* PostDetailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsUITests.swift; sourceTree = "<group>"; };
 		12DCF7642CB3F358003C4E91 /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		12DCF7662CB3F364003C4E91 /* RegisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUITests.swift; sourceTree = "<group>"; };
+		12DCF76D2CB433DC003C4E91 /* FLTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTextFieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 		12DCF74C2CB00A8D003C4E91 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				12DCF76C2CB433B9003C4E91 /* UIUtils */,
 				12DCF74A2CB00A86003C4E91 /* FLContentText.swift */,
 				12DCF7482CB00A75003C4E91 /* FLTitle.swift */,
 				12DCF73E2CB00970003C4E91 /* FLOutlinedButton.swift */,
@@ -315,6 +318,14 @@
 				12DCF75B2CB3F2C5003C4E91 /* CreatePostUITests.swift */,
 			);
 			path = ActionsUITests;
+			sourceTree = "<group>";
+		};
+		12DCF76C2CB433B9003C4E91 /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				12DCF76D2CB433DC003C4E91 /* FLTextFieldStyle.swift */,
+			);
+			path = UIUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +473,7 @@
 				12DCF72C2CB00379003C4E91 /* Register.swift in Sources */,
 				12DCF7432CB009B8003C4E91 /* FLPost.swift in Sources */,
 				12DCF7552CB02A23003C4E91 /* FLLogo.swift in Sources */,
+				12DCF76E2CB433DC003C4E91 /* FLTextFieldStyle.swift in Sources */,
 				12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */,
 				12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */,
 				12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */,
