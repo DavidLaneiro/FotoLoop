@@ -23,7 +23,7 @@ final class TabsUITests: XCTestCase {
         app = nil
     }
 
-    func testFeedTabExistance() throws {
+    func testFeedTabExistence() throws {
         
         // Arrange
         let tabBar = app.tabBars
@@ -39,7 +39,7 @@ final class TabsUITests: XCTestCase {
         
     }
     
-    func testProfileTabExistance() throws {
+    func testProfileTabExistence() throws {
         // Arrange
         let tabBar = app.tabBars
         let profileTab = tabBar.buttons["ProfileTab"]
@@ -52,7 +52,7 @@ final class TabsUITests: XCTestCase {
                                 
     }
     
-    func testFeedScreenExistance() throws {
+    func testFeedScreenExistence() throws {
         // Arrange
         let tabBar = app.tabBars
         let feedTab = tabBar.buttons["FeedTab"]
@@ -67,7 +67,7 @@ final class TabsUITests: XCTestCase {
                                 
     }
     
-    func testProfileScreenExistance() throws {
+    func testProfileScreenExistence() throws {
         // Arrange
         let tabBar = app.tabBars
         let profileTab = tabBar.buttons["ProfileTab"]

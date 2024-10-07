@@ -22,7 +22,7 @@ final class LoginUITests: XCTestCase {
         app = nil
     }
 
-    func testLogoExistance() throws {
+    func testLogoExistence() throws {
         
         // Arrange
         let logoImage = app.images["LogoImage"]
