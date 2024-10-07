@@ -16,12 +16,13 @@ struct Tabs: View {
                 Image(systemName: "text.below.photo.fill.rtl")
                 Text("Feed")
                     .accessibilityIdentifier("FeedTab")
+                
             }
-            
+        
             Profile().tabItem {
                 Image(systemName: "person")
-                Text("Profile")
-                    .accessibilityIdentifier("ProfileTab")
+                Text("Profile").accessibilityIdentifier("ProfileTab")
+                    
             }
             
         }

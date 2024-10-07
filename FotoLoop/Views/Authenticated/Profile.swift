@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Profile: View {
     var body: some View {
-        Text("This is the Profile screen!")
+        Text("This is the Profile screen!").accessibilityIdentifier("ProfileScreen")
     }
 }
 

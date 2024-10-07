@@ -11,6 +11,7 @@ struct Feed: View {
 
     var body: some View {
         Text("This is the Feed screen!")
+            .accessibilityIdentifier("FeedScreen")
     }
 }
 
