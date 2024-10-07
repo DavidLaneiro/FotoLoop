@@ -13,7 +13,6 @@ struct FLTextField : View{
     // Just while viewModel is not created
     @State private var text : String = ""
     var placeholder : String
-    var iconSystemName : String
     
     var body: some View {
         TextField(placeholder, text: $text)
@@ -28,5 +27,5 @@ struct FLTextField : View{
 
 
 #Preview {
-    FLTextField(placeholder: "Insert placeholder here", iconSystemName: "magnifyingglass")
+    FLTextField(placeholder: "Insert placeholder here")
 }
