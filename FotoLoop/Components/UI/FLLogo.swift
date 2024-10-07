@@ -20,7 +20,7 @@ struct FLLogo: View {
             Text("FotoLoop")
                 .bold().font(.title).font(.title2)
                 .foregroundStyle(logoColor)
-        }.background( LinearGradient(colors: [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500], startPoint: .topLeading, endPoint: .bottomTrailing))
+        }.background(LinearGradient(colors: [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500], startPoint: .topLeading, endPoint: .bottomTrailing))
     }
 }
 
