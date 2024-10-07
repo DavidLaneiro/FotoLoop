@@ -12,11 +12,11 @@ struct FotoLoopApp: App {
         
     var body: some Scene {
         WindowGroup {
-            Tabs()
+            Login()
         }
     }
 }
 
 #Preview {
-    Tabs()
+    Login()
 }

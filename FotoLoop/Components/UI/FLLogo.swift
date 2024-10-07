@@ -17,9 +17,11 @@ struct FLLogo: View {
         HStack{
             Image(systemName: "photo.on.rectangle.angled").resizable().frame(width: 60, height: 50)
                 .foregroundStyle(logoColor)
+                .accessibilityIdentifier("LogoImage")
             Text("FotoLoop")
                 .bold().font(.title).font(.title2)
                 .foregroundStyle(logoColor)
+                .accessibilityIdentifier("LogoText")
         }.background(LinearGradient(colors: [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500], startPoint: .topLeading, endPoint: .bottomTrailing))
     }
 }
