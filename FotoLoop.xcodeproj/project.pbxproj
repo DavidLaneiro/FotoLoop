@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
-		123F7D672CB5701600864DF0 /* LogoUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D662CB5701600864DF0 /* LogoUnitTests.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
 		123F7D732CB57F8400864DF0 /* FLSimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D722CB57F8400864DF0 /* FLSimpleButton.swift */; };
@@ -76,7 +75,6 @@
 
 /* Begin PBXFileReference section */
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
-		123F7D662CB5701600864DF0 /* LogoUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoUnitTests.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
 		123F7D722CB57F8400864DF0 /* FLSimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSimpleButton.swift; sourceTree = "<group>"; };
@@ -153,14 +151,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		123F7D652CB56FEB00864DF0 /* ComponentsUnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				123F7D662CB5701600864DF0 /* LogoUnitTests.swift */,
-			);
-			path = ComponentsUnitTests;
-			sourceTree = "<group>";
-		};
 		123F7D742CB5862500864DF0 /* ConstantsUnitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				123F7D742CB5862500864DF0 /* ConstantsUnitTests */,
-				123F7D652CB56FEB00864DF0 /* ComponentsUnitTests */,
 				12CE5CEB2CB553D5008D47FA /* AuthenticatedUnitTests */,
 				12CE5CEA2CB553CB008D47FA /* AuthUnitTests */,
 			);
@@ -606,7 +595,6 @@
 				12CE5CF32CB55425008D47FA /* FeedUnitTests.swift in Sources */,
 				123F7D782CB5865A00864DF0 /* UIConstantsUnitTests.swift in Sources */,
 				12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */,
-				123F7D672CB5701600864DF0 /* LogoUnitTests.swift in Sources */,
 				12CE5CEF2CB553FE008D47FA /* RegisterUnitTests.swift in Sources */,
 				12DCF7062CAFFEA7003C4E91 /* FotoLoopTests.swift in Sources */,
 				12CE5CF72CB55441008D47FA /* ProfileUnitTests.swift in Sources */,
