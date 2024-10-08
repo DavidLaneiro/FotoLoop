@@ -10,22 +10,17 @@ import SwiftUI
 
 struct FLLogo: View {
 
-    // Does not change
-    let logoColor = UIConstants.logoColor
-    let logoIcon = UIConstants.logoIcon
-    let logoTitle = UIConstants.logoTitle
-
     var body: some View {
         HStack {
 
-            Image(systemName: logoIcon).resizable().frame(width: 60, height: 50)
-                .foregroundStyle(logoColor)
+            Image(systemName: UIConstants.Logo.logoIcon).resizable().frame(width: 60, height: 50)
+                .foregroundStyle(UIConstants.Logo.logoColor)
                 .accessibilityIdentifier("LogoImage")
                 .lightShadow()
 
-            Text(logoTitle)
+            Text(UIConstants.Logo.logoTitle)
                 .bold().font(.title).font(.title2)
-                .foregroundStyle(logoColor)
+                .foregroundStyle(UIConstants.Logo.logoColor)
                 .accessibilityIdentifier("LogoText")
                 .lightShadow()
 

@@ -9,24 +9,19 @@ import SwiftUI
 
 struct Tabs: View {
 
-    let feedIconSystemName = UIConstants.feedIconSystemName
-    let feedTitleSystemName = UIConstants.feedTitleSystemName
-    let profileIconSystemName = UIConstants.profileIconSystemName
-    let profileTitleSystemName = UIConstants.profileTitleSystemName
-
     var body: some View {
 
         TabView {
             Feed().tabItem {
-                Image(systemName: feedIconSystemName)
-                Text(feedTitleSystemName)
+                Image(systemName: UIConstants.Tabs.feedIcon)
+                Text(UIConstants.Tabs.feedTitle)
                     .accessibilityIdentifier("FeedTab")
 
             }
 
             Profile().tabItem {
-                Image(systemName: profileIconSystemName)
-                Text(profileTitleSystemName).accessibilityIdentifier("ProfileTab")
+                Image(systemName: UIConstants.Tabs.profileIcon)
+                Text(UIConstants.Tabs.profileTitle).accessibilityIdentifier("ProfileTab")
 
             }
 

@@ -8,14 +8,16 @@
 import Foundation
 
 struct UIConstants {
-    // Tabs
-    static let feedIconSystemName = "text.below.photo.fill.rtl"
-    static let feedTitleSystemName = "Feed"
-    static let profileIconSystemName = "person"
-    static let profileTitleSystemName = "Profile"
+    struct Tabs {
+        static let feedIcon = "text.below.photo.fill.rtl"
+        static let feedTitle = "Feed"
+        static let profileIcon = "person"
+        static let profileTitle = "Profile"
+    }
 
-    // Logo
-    static let logoColor = Colors.white
-    static let logoIcon = "photo.on.rectangle.angled"
-    static let logoTitle = "FotoLoop"
+    struct Logo {
+        static let logoColor = Colors.white
+        static let logoIcon = "photo.on.rectangle.angled"
+        static let logoTitle = "FotoLoop"
+    }
 }

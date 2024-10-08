@@ -21,4 +21,12 @@ final class LoginUnitTests: XCTestCase {
         login = nil
     }
 
+    func testForgotPasswordButtonTextValueValidity() {
+        // Arrange
+
+        // Act
+
+        // Assert
+    }
+
 }
