@@ -11,6 +11,7 @@
 		123F7D672CB5701600864DF0 /* LogoUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D662CB5701600864DF0 /* LogoUnitTests.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
+		123F7D732CB57F8400864DF0 /* FLSimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D722CB57F8400864DF0 /* FLSimpleButton.swift */; };
 		12CE5CED2CB553F2008D47FA /* LoginUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CEC2CB553F2008D47FA /* LoginUnitTests.swift */; };
 		12CE5CEF2CB553FE008D47FA /* RegisterUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CEE2CB553FE008D47FA /* RegisterUnitTests.swift */; };
 		12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CF02CB55414008D47FA /* PostDetailsUnitTests.swift */; };
@@ -77,6 +78,7 @@
 		123F7D662CB5701600864DF0 /* LogoUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoUnitTests.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
+		123F7D722CB57F8400864DF0 /* FLSimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSimpleButton.swift; sourceTree = "<group>"; };
 		12CE5CEC2CB553F2008D47FA /* LoginUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUnitTests.swift; sourceTree = "<group>"; };
 		12CE5CEE2CB553FE008D47FA /* RegisterUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUnitTests.swift; sourceTree = "<group>"; };
 		12CE5CF02CB55414008D47FA /* PostDetailsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsUnitTests.swift; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 				12DCF7422CB009B8003C4E91 /* FLPost.swift */,
 				12DCF7442CB009CA003C4E91 /* FLImagePicker.swift */,
 				123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */,
+				123F7D722CB57F8400864DF0 /* FLSimpleButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -566,6 +569,7 @@
 				123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */,
 				12DCF73D2CB00964003C4E91 /* FLButton.swift in Sources */,
 				12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */,
+				123F7D732CB57F8400864DF0 /* FLSimpleButton.swift in Sources */,
 				12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */,
 				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
 				123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */,
