@@ -9,8 +9,8 @@ import XCTest
 
 final class LoginUITests: XCTestCase {
 
-    var app : XCUIApplication!
-    
+    var app: XCUIApplication!
+
     override func setUpWithError() throws {
 
         continueAfterFailure = false
@@ -23,20 +23,19 @@ final class LoginUITests: XCTestCase {
     }
 
     func testLogoExistence() throws {
-        
+
         // Arrange
         let logoImage = app.images["LogoImage"]
         let logoText = app.staticTexts["LogoText"]
-        
+
         // Act
         let logoImageExists = logoImage.exists
         let logoTextExists = logoText.exists
-        
+
         let logoExists = logoImageExists && logoTextExists
-        
+
         // Assert
         XCTAssertTrue(logoExists, "The logo should be on the screen.")
     }
-
 
 }

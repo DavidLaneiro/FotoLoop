@@ -9,10 +9,13 @@ import SwiftUI
 
 struct Login: View {
     var body: some View {
-        ZStack{
-            LinearGradient(colors: [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500], startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea()
+        ZStack {
+            LinearGradient(colors:
+                            [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500],
+                           startPoint: .topLeading, endPoint: .bottomTrailing)
+            .ignoresSafeArea()
             FLLogo()
-            
+
         }
     }
 }

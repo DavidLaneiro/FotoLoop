@@ -10,7 +10,7 @@ import XCTest
 final class TabsUITests: XCTestCase {
 
     var app: XCUIApplication!
-    
+
     override func setUpWithError() throws {
 
         continueAfterFailure = false
@@ -24,62 +24,61 @@ final class TabsUITests: XCTestCase {
     }
 
     func testFeedTabExistence() throws {
-        
+
         // Arrange
         let tabBar = app.tabBars
         let feedTab = tabBar.buttons["FeedTab"]
-        
+
         print(app.images.firstMatch.identifier)
-        
+
         // Act
         let feedTabExists = feedTab.exists
 
         // Assert
         XCTAssertTrue(feedTabExists, "Feed tab should exist.")
-        
+
     }
-    
+
     func testProfileTabExistence() throws {
         // Arrange
         let tabBar = app.tabBars
         let profileTab = tabBar.buttons["ProfileTab"]
-        
+
         // Act
         let profileTabExists = profileTab.exists
-        
+
         // Assert
         XCTAssertTrue(profileTabExists, "Profile tab should exist.")
-                                
+
     }
-    
+
     func testFeedScreenExistence() throws {
         // Arrange
         let tabBar = app.tabBars
         let feedTab = tabBar.buttons["FeedTab"]
         let feedScreen = app.staticTexts["FeedScreen"]
-        
+
         // Act
         feedTab.tap()
 
         // Assert
 
         XCTAssertTrue(feedScreen.exists, "The feed screen should be on display.")
-                                
+
     }
-    
+
     func testProfileScreenExistence() throws {
         // Arrange
         let tabBar = app.tabBars
         let profileTab = tabBar.buttons["ProfileTab"]
         let profileScreen = app.staticTexts["ProfileScreen"]
-        
+
         // Act
         profileTab.tap()
 
         // Assert
         XCTAssertTrue(profileScreen.exists, "The profile screen should be on display.")
-                                
+
     }
-    
 
 }
