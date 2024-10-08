@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12CE5CED2CB553F2008D47FA /* LoginUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CEC2CB553F2008D47FA /* LoginUnitTests.swift */; };
+		12CE5CEF2CB553FE008D47FA /* RegisterUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CEE2CB553FE008D47FA /* RegisterUnitTests.swift */; };
+		12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CF02CB55414008D47FA /* PostDetailsUnitTests.swift */; };
+		12CE5CF32CB55425008D47FA /* FeedUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CF22CB55425008D47FA /* FeedUnitTests.swift */; };
+		12CE5CF52CB55430008D47FA /* TabsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CF42CB55430008D47FA /* TabsUnitTests.swift */; };
+		12CE5CF72CB55441008D47FA /* ProfileUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CF62CB55441008D47FA /* ProfileUnitTests.swift */; };
+		12CE5CFA2CB5545E008D47FA /* EditProfileUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CF92CB5545E008D47FA /* EditProfileUnitTests.swift */; };
+		12CE5CFC2CB55469008D47FA /* CreatePostUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE5CFB2CB55469008D47FA /* CreatePostUnitTests.swift */; };
 		12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF6F42CAFFEA5003C4E91 /* FotoLoopApp.swift */; };
 		12DCF6F92CAFFEA6003C4E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DCF6F82CAFFEA6003C4E91 /* Assets.xcassets */; };
 		12DCF6FC2CAFFEA6003C4E91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DCF6FB2CAFFEA6003C4E91 /* Preview Assets.xcassets */; };
@@ -61,6 +69,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12CE5CEC2CB553F2008D47FA /* LoginUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUnitTests.swift; sourceTree = "<group>"; };
+		12CE5CEE2CB553FE008D47FA /* RegisterUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUnitTests.swift; sourceTree = "<group>"; };
+		12CE5CF02CB55414008D47FA /* PostDetailsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsUnitTests.swift; sourceTree = "<group>"; };
+		12CE5CF22CB55425008D47FA /* FeedUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUnitTests.swift; sourceTree = "<group>"; };
+		12CE5CF42CB55430008D47FA /* TabsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsUnitTests.swift; sourceTree = "<group>"; };
+		12CE5CF62CB55441008D47FA /* ProfileUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUnitTests.swift; sourceTree = "<group>"; };
+		12CE5CF92CB5545E008D47FA /* EditProfileUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileUnitTests.swift; sourceTree = "<group>"; };
+		12CE5CFB2CB55469008D47FA /* CreatePostUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostUnitTests.swift; sourceTree = "<group>"; };
 		12DCF6F12CAFFEA5003C4E91 /* FotoLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DCF6F42CAFFEA5003C4E91 /* FotoLoopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoLoopApp.swift; sourceTree = "<group>"; };
 		12DCF6F82CAFFEA6003C4E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,6 +141,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12CE5CE92CB553BC008D47FA /* FotoLoopUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				12CE5CEB2CB553D5008D47FA /* AuthenticatedUnitTests */,
+				12CE5CEA2CB553CB008D47FA /* AuthUnitTests */,
+			);
+			path = FotoLoopUnitTests;
+			sourceTree = "<group>";
+		};
+		12CE5CEA2CB553CB008D47FA /* AuthUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				12CE5CEC2CB553F2008D47FA /* LoginUnitTests.swift */,
+				12CE5CEE2CB553FE008D47FA /* RegisterUnitTests.swift */,
+			);
+			path = AuthUnitTests;
+			sourceTree = "<group>";
+		};
+		12CE5CEB2CB553D5008D47FA /* AuthenticatedUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				12CE5CF82CB55449008D47FA /* ActionsUnitTests */,
+				12CE5CF02CB55414008D47FA /* PostDetailsUnitTests.swift */,
+				12CE5CF22CB55425008D47FA /* FeedUnitTests.swift */,
+				12CE5CF42CB55430008D47FA /* TabsUnitTests.swift */,
+				12CE5CF62CB55441008D47FA /* ProfileUnitTests.swift */,
+			);
+			path = AuthenticatedUnitTests;
+			sourceTree = "<group>";
+		};
+		12CE5CF82CB55449008D47FA /* ActionsUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				12CE5CF92CB5545E008D47FA /* EditProfileUnitTests.swift */,
+				12CE5CFB2CB55469008D47FA /* CreatePostUnitTests.swift */,
+			);
+			path = ActionsUnitTests;
+			sourceTree = "<group>";
+		};
 		12DCF6E82CAFFEA5003C4E91 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +228,7 @@
 		12DCF7042CAFFEA7003C4E91 /* FotoLoopTests */ = {
 			isa = PBXGroup;
 			children = (
+				12CE5CE92CB553BC008D47FA /* FotoLoopUnitTests */,
 				12DCF7052CAFFEA7003C4E91 /* FotoLoopTests.swift */,
 			);
 			path = FotoLoopTests;
@@ -509,7 +565,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CE5CF32CB55425008D47FA /* FeedUnitTests.swift in Sources */,
+				12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */,
+				12CE5CEF2CB553FE008D47FA /* RegisterUnitTests.swift in Sources */,
 				12DCF7062CAFFEA7003C4E91 /* FotoLoopTests.swift in Sources */,
+				12CE5CF72CB55441008D47FA /* ProfileUnitTests.swift in Sources */,
+				12CE5CED2CB553F2008D47FA /* LoginUnitTests.swift in Sources */,
+				12CE5CF52CB55430008D47FA /* TabsUnitTests.swift in Sources */,
+				12CE5CFA2CB5545E008D47FA /* EditProfileUnitTests.swift in Sources */,
+				12CE5CFC2CB55469008D47FA /* CreatePostUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
