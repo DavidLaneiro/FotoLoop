@@ -17,8 +17,14 @@ struct Login: View {
             VStack {
                 FLLogo()
                 FLoginForm()
-                FLSimpleButton(buttonText: UIConstants.Login.forgotPassword).foregroundStyle(Colors.spaceGray500)
-                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
+                
+                HStack{
+                    Spacer()
+                    FLSimpleButton(buttonText: UIConstants.Login.forgotPassword).foregroundStyle(Colors.spaceGray500)
+                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
+                }
+                
+                FLButton(buttonText: UIConstants.Login.login)
             }
 
         }

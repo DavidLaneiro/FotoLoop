@@ -16,7 +16,6 @@ struct FLSimpleButton: View {
         Button(action: {
             print("Button pressed!")
         }, label: {
-            Spacer()
             Text(buttonText)
         }).foregroundStyle(Colors.spaceGray500)
             .accessibilityIdentifier("SimpleButton")

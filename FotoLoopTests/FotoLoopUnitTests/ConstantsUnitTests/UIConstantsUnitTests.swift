@@ -52,4 +52,9 @@ final class UIConstantsUnitTests: XCTestCase {
                        "The forgot password title value does not match.")
     }
 
+    func testLoginTitle() {
+        XCTAssertEqual(UIConstants.Login.login, "Login",
+                       "The login title value does not match.")
+    }
+
 }

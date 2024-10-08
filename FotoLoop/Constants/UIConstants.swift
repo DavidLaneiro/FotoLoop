@@ -26,6 +26,7 @@ struct UIConstants {
         static let email = "Email"
         static let password = "Password"
         static let forgotPassword = "Forgot password?"
+        static let login = "Login"
 
     }
 }

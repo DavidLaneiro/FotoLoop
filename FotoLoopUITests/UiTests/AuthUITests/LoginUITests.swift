@@ -56,7 +56,16 @@ final class LoginUITests: XCTestCase {
         // Act
         let forgotPasswordButtonExists = forgotPasswordButton.exists
         // Assert
-        XCTAssertTrue(forgotPasswordButtonExists)
+        XCTAssertTrue(forgotPasswordButtonExists, "The forgot password should exist.")
+    }
+
+    func testLoginButtonExistence() {
+        // Arrange
+        let loginButton = app.buttons["FilledButton"]
+        // Act
+        let loginButtonExists = loginButton.exists
+        // Assert
+        XCTAssertTrue(loginButtonExists, "The login button should exist.")
     }
 
 }
