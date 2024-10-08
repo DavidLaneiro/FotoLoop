@@ -12,8 +12,8 @@ struct FLoginForm: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            FLTextField(placeholder: "Email")
-            FLTextField(placeholder: "Password")
+            FLTextField(placeholder: UIConstants.Login.email)
+            FLTextField(placeholder: UIConstants.Login.password)
         }
     }
 }
