@@ -19,6 +19,7 @@ struct FLSimpleButton: View {
             Spacer()
             Text(buttonText)
         }).foregroundStyle(Colors.spaceGray500)
+            .accessibilityIdentifier("SimpleButton")
     }
 
 }

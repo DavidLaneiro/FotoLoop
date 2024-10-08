@@ -38,4 +38,25 @@ final class LoginUITests: XCTestCase {
         XCTAssertTrue(logoExists, "The logo should be on the screen.")
     }
 
+    func testFormExistence() {
+
+        // Arrange
+        let loginFormEmailTF = app.textFields["EmailTF"]
+        let loginFormPasswordTF = app.textFields["PasswordTF"]
+
+        // Act
+        let loginFormExists = (loginFormEmailTF.exists && loginFormPasswordTF.exists)
+        // Assert
+        XCTAssertTrue(loginFormExists, "The login form should exist.")
+    }
+
+    func testForgotPasswordButtonExistence() {
+        // Arrange
+        let forgotPasswordButton = app.buttons["SimpleButton"]
+        // Act
+        let forgotPasswordButtonExists = forgotPasswordButton.exists
+        // Assert
+        XCTAssertTrue(forgotPasswordButtonExists)
+    }
+
 }
