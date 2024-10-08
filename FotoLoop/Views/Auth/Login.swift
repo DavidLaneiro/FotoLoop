@@ -14,7 +14,10 @@ struct Login: View {
                             [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500],
                            startPoint: .topLeading, endPoint: .bottomTrailing)
             .ignoresSafeArea()
-            FLLogo()
+            VStack {
+                FLLogo()
+                FLoginForm()
+            }
 
         }
     }

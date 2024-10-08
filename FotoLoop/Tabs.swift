@@ -9,10 +9,10 @@ import SwiftUI
 
 struct Tabs: View {
 
-    let feedIconSystemName = "text.below.photo.fill.rtl"
-    let feedTitleSystemName = "Feed"
-    let profileIconSystemName = "person"
-    let profileTitleSystemName = "Profile"
+    let feedIconSystemName = UIConstants.feedIconSystemName
+    let feedTitleSystemName = UIConstants.feedTitleSystemName
+    let profileIconSystemName = UIConstants.profileIconSystemName
+    let profileTitleSystemName = UIConstants.profileTitleSystemName
 
     var body: some View {
 

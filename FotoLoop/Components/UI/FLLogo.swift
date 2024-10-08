@@ -10,22 +10,27 @@ import SwiftUI
 
 struct FLLogo: View {
 
-    // It has to remain White
-    let logoColor: Color = Colors.white
+    // Does not change
+    let logoColor = UIConstants.logoColor
+    let logoIcon = UIConstants.logoIcon
+    let logoTitle = UIConstants.logoTitle
 
     var body: some View {
         HStack {
-            Image(systemName: "photo.on.rectangle.angled").resizable().frame(width: 60, height: 50)
+            Image(systemName: logoIcon).resizable().frame(width: 60, height: 50)
                 .foregroundStyle(logoColor)
                 .accessibilityIdentifier("LogoImage")
-            Text("FotoLoop")
+                .lightShadow()
+            Text(logoTitle)
                 .bold().font(.title).font(.title2)
                 .foregroundStyle(logoColor)
                 .accessibilityIdentifier("LogoText")
+                .lightShadow()
         }.background(LinearGradient(
             colors: [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500],
                                     startPoint: .topLeading,
                                     endPoint: .bottomTrailing)
+
         )
     }
 }

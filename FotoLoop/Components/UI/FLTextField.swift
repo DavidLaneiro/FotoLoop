@@ -17,7 +17,7 @@ struct FLTextField: View {
     var body: some View {
         TextField(placeholder, text: $text)
             .textFieldStyle(FLTextFieldStyle())
-            .padding(20)
+            .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
             .background(LinearGradient(
                 colors: [Colors.sandyBrownOrange300, Colors.sandyBrownOrange500],
                 startPoint: .topLeading, endPoint: .bottomTrailing))

@@ -16,7 +16,7 @@ struct FLTextFieldStyle: TextFieldStyle {
             .padding(EdgeInsets(top: 12, leading: 20, bottom: 12, trailing: 12))
             .background(Colors.white)
             .cornerRadius(20)
-            .shadow(color: Colors.black.opacity(0.2), radius: 8, x: 0, y: 5)
+            .lightShadow()
             .foregroundStyle(Colors.spaceGray500)
     }
 }
