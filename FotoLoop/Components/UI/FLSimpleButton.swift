@@ -10,7 +10,7 @@ import SwiftUI
 
 struct FLSimpleButton: View {
 
-    var buttonText: String
+    var buttonText: AttributedString
 
     var body: some View {
         Button(action: {
