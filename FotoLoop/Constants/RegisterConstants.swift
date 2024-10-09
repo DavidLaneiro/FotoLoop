@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct RegisterConstants {
+
+    struct Register {
+
+    }
+
+}
