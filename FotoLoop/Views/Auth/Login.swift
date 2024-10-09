@@ -24,17 +24,17 @@ struct Login: View {
                         Spacer()
                         FLSimpleButton(buttonText: FLStrings
                             .createAttributedString(stringToTransform: LoginConstants.Login.forgotPassword,
-                                                    substringToStyle: ""))
+                                                    substringToStyle: ""), action: {})
                             .foregroundStyle(Colors.spaceGray500)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
                             .accessibilityIdentifier("ForgotPasswordButton")
                     }
 
-                    FLButton(buttonText: LoginConstants.Login.login).accessibilityIdentifier("LoginButton")
+                    FLButton(buttonText: LoginConstants.Login.login, action: {}).accessibilityIdentifier("LoginButton")
                     FLSimpleButton(buttonText:
                                     FLStrings
                         .createAttributedString(stringToTransform: LoginConstants.Login.signUp,
-                                                substringToStyle: "Sign Up") )
+                                                substringToStyle: "Sign Up"), action: {})
                     .accessibilityIdentifier("SignUpButton")
 
                 }.padding(EdgeInsets(top: 40, leading: 0, bottom: 20, trailing: 0))

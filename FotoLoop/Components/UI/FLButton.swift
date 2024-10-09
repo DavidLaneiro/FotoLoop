@@ -11,10 +11,11 @@ import SwiftUI
 struct FLButton: View {
 
     var buttonText: String
+    var action: () -> Void
 
     var body: some View {
         Button(action: {
-            print("Login user!")
+            action()
         }, label: {
             Text(buttonText)
                 .font(.headline)
@@ -30,5 +31,7 @@ struct FLButton: View {
 }
 
 #Preview{
-    FLButton(buttonText: "Login")
+    FLButton(buttonText: "Login", action: {
+        print("Button pressed.")
+    })
 }

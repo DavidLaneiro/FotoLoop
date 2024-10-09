@@ -11,10 +11,11 @@ import SwiftUI
 struct FLSimpleButton: View {
 
     var buttonText: AttributedString
+    var action: () -> Void
 
     var body: some View {
         Button(action: {
-            print("Button pressed!")
+            action()
         }, label: {
             Text(buttonText)
         }).foregroundStyle(Colors.spaceGray500)
@@ -24,5 +25,5 @@ struct FLSimpleButton: View {
 }
 
 #Preview {
-    FLSimpleButton(buttonText: "Forgot password?")
+    FLSimpleButton(buttonText: "Forgot password?", action: {print("Button pressed.")})
 }
