@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct Navigation: View {
-
+    // Struct to manage navigation
     @EnvironmentObject var navigationVM: NavigationViewModel
 
     var body: some View {
@@ -17,19 +17,22 @@ struct Navigation: View {
             switch navigationVM.navigationState {
             case .login:
                 Login()
-            case .register:
-                Text("Go to register page!")
             case .feed:
-                Feed()
-            case .createPost:
-                Text("Go to createPost page!")
-            case .profile:
-                Text("Go to profile page!")
-            case .editProfile:
-                Text("Go to edit profile page!")
+                Tabs()
             case .none:
                 Login()
             }
+
+        }.navigationDestination(for: NavigationState.self) { destination in
+
+            switch destination {
+            case .login:
+                Login()
+
+            case .feed:
+                Tabs()
+            }
+
         }
     }
 

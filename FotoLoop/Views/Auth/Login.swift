@@ -34,7 +34,7 @@ struct Login: View {
                     }
 
                     FLButton(buttonText: LoginConstants.Login.login, action: {
-                        navigationVM.navigateToFeed()
+
                     }).accessibilityIdentifier("LoginButton")
                     FLSimpleButton(buttonText:
                                     FLStrings
@@ -51,5 +51,5 @@ struct Login: View {
 }
 
 #Preview {
-    Login()
+    Login().environmentObject(NavigationViewModel())
 }

@@ -8,7 +8,19 @@
 import Foundation
 
 class NavigationViewModel: ObservableObject {
+
+    // Add complex logic later
     @Published var navigationState: NavigationState?
+    @Published var isAuthenticated: Bool = false
+
+    init() {
+        // It depends on auth
+        if isAuthenticated {
+            self.navigationState = .feed
+        } else {
+            self.navigationState = .login
+        }
+    }
 
     // MARK: Navigation Functions
 
@@ -17,25 +29,9 @@ class NavigationViewModel: ObservableObject {
         navigationState = .login
     }
 
-    func navigateToRegister() {
-        navigationState = .register
-    }
-
     // Authenticated
     func navigateToFeed() {
         navigationState = .feed
-    }
-
-    func navigateToEditProfile() {
-        navigationState = .editProfile
-    }
-
-    func navigateToProfile() {
-        navigationState = .profile
-    }
-
-    func navigateToCreatePost() {
-        navigationState = .createPost
     }
 
 }

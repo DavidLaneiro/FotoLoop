@@ -9,11 +9,6 @@ import Foundation
 
 enum NavigationState {
     // Simple enum to manage navigation state
-
     case login
-    case register
     case feed
-    case createPost
-    case profile
-    case editProfile
 }
