@@ -85,8 +85,8 @@
 		121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLStringsUnitTests.swift; sourceTree = "<group>"; };
 		121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConstants.swift; sourceTree = "<group>"; };
 		121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstants.swift; sourceTree = "<group>"; };
-		121D700E2CB6CAC500D58AC8 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationState.swift; path = FotoLoop/Constants/NavigationState.swift; sourceTree = SOURCE_ROOT; };
-		121D70102CB6CBCB00D58AC8 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationViewModel.swift; path = FotoLoop/Constants/NavigationViewModel.swift; sourceTree = SOURCE_ROOT; };
+		121D700E2CB6CAC500D58AC8 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationState.swift; path = FotoLoop/Models/NavigationState.swift; sourceTree = SOURCE_ROOT; };
+		121D70102CB6CBCB00D58AC8 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationViewModel.swift; path = FotoLoop/ViewModels/NavigationViewModel.swift; sourceTree = SOURCE_ROOT; };
 		121D70122CB6DA1E00D58AC8 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
