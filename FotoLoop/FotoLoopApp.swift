@@ -14,7 +14,9 @@ struct FotoLoopApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Login(navigationVM: viewModel)
+            NavigationStack {
+                Navigation().environmentObject(viewModel)
+            }
         }
     }
 }

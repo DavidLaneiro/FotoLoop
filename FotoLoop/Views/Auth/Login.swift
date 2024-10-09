@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Login: View {
 
-    @ObservedObject var navigationVM = NavigationViewModel()
+    @EnvironmentObject var navigationVM: NavigationViewModel
 
     var body: some View {
         ZStack {
@@ -43,9 +43,6 @@ struct Login: View {
                     .accessibilityIdentifier("SignUpButton")
 
                 }.padding(EdgeInsets(top: 40, leading: 0, bottom: 20, trailing: 0))
-                    .navigationDestination(for: NavigationState.self) { _ in
-                        // Add cases
-                    }
 
             }
 
