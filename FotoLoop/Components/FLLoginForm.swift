@@ -12,9 +12,9 @@ struct FLoginForm: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            FLTextField(placeholder: UIConstants.Login.email)
+            FLTextField(placeholder: LoginConstants.Login.email)
                 .accessibilityIdentifier("EmailTF")
-            FLTextField(placeholder: UIConstants.Login.password)
+            FLTextField(placeholder: LoginConstants.Login.password)
                 .accessibilityIdentifier("PasswordTF")
         }
 

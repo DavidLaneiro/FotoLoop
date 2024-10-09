@@ -40,25 +40,25 @@ final class UIConstantsUnitTests: XCTestCase {
     }
 
     func testEmailTitle() {
-        XCTAssertEqual(UIConstants.Login.email, "Email", "The email title value does not match.")
+        XCTAssertEqual(LoginConstants.Login.email, "Email", "The email title value does not match.")
     }
 
     func testPasswordTitle() {
-        XCTAssertEqual(UIConstants.Login.password, "Password", "The password title value does not match.")
+        XCTAssertEqual(LoginConstants.Login.password, "Password", "The password title value does not match.")
     }
 
     func testForgotPasswordTitle() {
-        XCTAssertEqual(UIConstants.Login.forgotPassword, "Forgot password?",
+        XCTAssertEqual(LoginConstants.Login.forgotPassword, "Forgot password?",
                        "The forgot password title value does not match.")
     }
 
     func testLoginTitle() {
-        XCTAssertEqual(UIConstants.Login.login, "Login",
+        XCTAssertEqual(LoginConstants.Login.login, "Login",
                        "The login title value does not match.")
     }
 
     func testSignupTitle() {
-        XCTAssertEqual(UIConstants.Login.signUp, "Don't have an account? Sign Up",
+        XCTAssertEqual(LoginConstants.Login.signUp, "Don't have an account? Sign Up",
                        "The sign up title value does not match.")
     }
 

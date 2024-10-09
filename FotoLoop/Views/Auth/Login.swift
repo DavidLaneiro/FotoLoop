@@ -23,17 +23,17 @@ struct Login: View {
                     HStack {
                         Spacer()
                         FLSimpleButton(buttonText: FLStrings
-                            .createAttributedString(stringToTransform: UIConstants.Login.forgotPassword,
+                            .createAttributedString(stringToTransform: LoginConstants.Login.forgotPassword,
                                                     substringToStyle: ""))
                             .foregroundStyle(Colors.spaceGray500)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
                             .accessibilityIdentifier("ForgotPasswordButton")
                     }
 
-                    FLButton(buttonText: UIConstants.Login.login).accessibilityIdentifier("LoginButton")
+                    FLButton(buttonText: LoginConstants.Login.login).accessibilityIdentifier("LoginButton")
                     FLSimpleButton(buttonText:
                                     FLStrings
-                        .createAttributedString(stringToTransform: UIConstants.Login.signUp,
+                        .createAttributedString(stringToTransform: LoginConstants.Login.signUp,
                                                 substringToStyle: "Sign Up") )
                     .accessibilityIdentifier("SignUpButton")
 
