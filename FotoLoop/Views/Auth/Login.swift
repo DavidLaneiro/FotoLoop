@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct Login: View {
+
+    @ObservedObject var navigationVM = NavigationViewModel()
+
     var body: some View {
         ZStack {
             LinearGradient(colors:
@@ -30,7 +33,9 @@ struct Login: View {
                             .accessibilityIdentifier("ForgotPasswordButton")
                     }
 
-                    FLButton(buttonText: LoginConstants.Login.login, action: {}).accessibilityIdentifier("LoginButton")
+                    FLButton(buttonText: LoginConstants.Login.login, action: {
+                        navigationVM.navigateToFeed()
+                    }).accessibilityIdentifier("LoginButton")
                     FLSimpleButton(buttonText:
                                     FLStrings
                         .createAttributedString(stringToTransform: LoginConstants.Login.signUp,
@@ -38,6 +43,9 @@ struct Login: View {
                     .accessibilityIdentifier("SignUpButton")
 
                 }.padding(EdgeInsets(top: 40, leading: 0, bottom: 20, trailing: 0))
+                    .navigationDestination(for: NavigationState.self) { _ in
+                        // Add cases
+                    }
 
             }
 
