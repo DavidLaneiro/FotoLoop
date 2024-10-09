@@ -10,8 +10,37 @@ import Foundation
 class NavigationViewModel: ObservableObject{
     @Published var navigationState : NavigationState? = nil
     
-    // Navigation Functions
+    // MARK: Navigation Functions
     
+    // Auth:
+    func navigateToLogin(){
+        
+    }
+    
+    func navigateToRegister(){
+        
+    
+    }
+    
+    
+    // Authenticated
+    func navigateToFeed(){
+        
+    }
+    
+    
+    func navigateToEditProfile(){
+        
+    }
+    
+    func navigateToProfile(){
+        
+    }
+    
+    func navigateToCreatePost(){
+        
+    }
+
     
     
 }
