@@ -8,7 +8,10 @@
 import Foundation
 
 class NavigationViewModel: ObservableObject{
-    @Published var navigationState : NavigationEnum
+    @Published var navigationState : NavigationState? = nil
+    
+    // Navigation Functions
+    
     
     
 }
