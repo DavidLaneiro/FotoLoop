@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -76,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLStringsUnitTests.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -155,6 +157,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121D70072CB6A34500D58AC8 /* UtilsUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */,
+			);
+			path = UtilsUnitTests;
+			sourceTree = "<group>";
+		};
 		123F7D742CB5862500864DF0 /* ConstantsUnitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +177,7 @@
 		12CE5CE92CB553BC008D47FA /* FotoLoopUnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				121D70072CB6A34500D58AC8 /* UtilsUnitTests */,
 				123F7D742CB5862500864DF0 /* ConstantsUnitTests */,
 				12CE5CEB2CB553D5008D47FA /* AuthenticatedUnitTests */,
 				12CE5CEA2CB553CB008D47FA /* AuthUnitTests */,
@@ -601,6 +612,7 @@
 			files = (
 				12CE5CF32CB55425008D47FA /* FeedUnitTests.swift in Sources */,
 				123F7D782CB5865A00864DF0 /* UIConstantsUnitTests.swift in Sources */,
+				121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */,
 				12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */,
 				12CE5CEF2CB553FE008D47FA /* RegisterUnitTests.swift in Sources */,
 				123F7D7A2CB588EC00864DF0 /* ColorsUnitTests.swift in Sources */,
