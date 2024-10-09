@@ -52,7 +52,7 @@ final class LoginUITests: XCTestCase {
 
     func testForgotPasswordButtonExistence() {
         // Arrange
-        let forgotPasswordButton = app.buttons["SimpleButton"]
+        let forgotPasswordButton = app.buttons["ForgotPasswordButton"]
         // Act
         let forgotPasswordButtonExists = forgotPasswordButton.exists
         // Assert
@@ -61,11 +61,20 @@ final class LoginUITests: XCTestCase {
 
     func testLoginButtonExistence() {
         // Arrange
-        let loginButton = app.buttons["FilledButton"]
+        let loginButton = app.buttons["LoginButton"]
         // Act
         let loginButtonExists = loginButton.exists
         // Assert
         XCTAssertTrue(loginButtonExists, "The login button should exist.")
+    }
+
+    func testSignUpButtonExistence() {
+        // Arrange
+        let signUpButton = app.buttons["SignUpButton"]
+        // Act
+        let signUpButtonExists = signUpButton.exists
+        // Assert
+        XCTAssertTrue(signUpButtonExists, "The signUp button should exist.")
     }
 
 }

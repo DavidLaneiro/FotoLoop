@@ -22,13 +22,18 @@ struct Login: View {
 
                     HStack {
                         Spacer()
-                        FLSimpleButton(buttonText: UIConstants.Login.forgotPassword)
+                        FLSimpleButton(buttonText:
+                                        UIConstants.Login.forgotPassword)
                             .foregroundStyle(Colors.spaceGray500)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
+                            .accessibilityIdentifier("ForgotPasswordButton")
                     }
 
-                    FLButton(buttonText: UIConstants.Login.login)
-                }.padding(EdgeInsets(top: 20, leading: 0, bottom: 20, trailing: 0))
+                    FLButton(buttonText: UIConstants.Login.login).accessibilityIdentifier("LoginButton")
+                    FLSimpleButton(buttonText: UIConstants.Login.signUp).accessibilityIdentifier("SignUpButton")
+
+                }.padding(EdgeInsets(top: 40, leading: 0, bottom: 20, trailing: 0))
+
             }
 
         }

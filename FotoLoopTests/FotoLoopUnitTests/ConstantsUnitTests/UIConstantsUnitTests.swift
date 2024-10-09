@@ -57,4 +57,9 @@ final class UIConstantsUnitTests: XCTestCase {
                        "The login title value does not match.")
     }
 
+    func testSignupTitle() {
+        XCTAssertEqual(UIConstants.Login.signUp, "Don't have an account? Sign Up",
+                       "The sign up title value does not match.")
+    }
+
 }

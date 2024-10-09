@@ -24,7 +24,7 @@ struct FLButton: View {
                 .background(Colors.spaceGray500)
                 .containerShape(RoundedRectangle(cornerRadius: 20))
                 .padding(30)                        .lightShadow()
-        }).accessibilityIdentifier("FilledButton")
+        })
     }
 
 }

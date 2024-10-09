@@ -314,7 +314,6 @@
 				12DCF7422CB009B8003C4E91 /* FLPost.swift */,
 				12DCF7442CB009CA003C4E91 /* FLImagePicker.swift */,
 				123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */,
-				123F7D722CB57F8400864DF0 /* FLSimpleButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -327,6 +326,7 @@
 				12DCF7482CB00A75003C4E91 /* FLTitle.swift */,
 				12DCF73E2CB00970003C4E91 /* FLOutlinedButton.swift */,
 				12DCF73C2CB00964003C4E91 /* FLButton.swift */,
+				123F7D722CB57F8400864DF0 /* FLSimpleButton.swift */,
 				12DCF73A2CB0094E003C4E91 /* FLTextField.swift */,
 				12DCF7542CB02A23003C4E91 /* FLLogo.swift */,
 			);
