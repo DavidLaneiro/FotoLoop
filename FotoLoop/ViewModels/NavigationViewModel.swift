@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NavigationViewModel: ObservableObject {
+class NavigationViewModel: ObservableObject, NavigationProtocol {
 
     // MARK: View model that manages app navigation
 
@@ -23,14 +23,6 @@ class NavigationViewModel: ObservableObject {
 
     func goToTabs() {
         navigationPath.append(.tabs)
-    }
-
-    func goBack() {
-        navigationPath.removeLast()
-    }
-
-    func resetNavigation() {
-        navigationPath.removeAll()
     }
 
 }

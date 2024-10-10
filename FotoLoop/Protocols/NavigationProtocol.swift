@@ -8,12 +8,6 @@
 import Foundation
 
 protocol NavigationProtocol{
-
     func goToLogin()
-
     func goToTabs()
-
-    func goBack()
-
-    func resetNavigation()
 }
