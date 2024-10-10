@@ -34,6 +34,7 @@ struct Login: View {
                     }
 
                     FLButton(buttonText: LoginConstants.Login.login, action: {
+
                         navViewModel.goToTabs()
                     }).accessibilityIdentifier("LoginButton")
                     FLSimpleButton(buttonText:

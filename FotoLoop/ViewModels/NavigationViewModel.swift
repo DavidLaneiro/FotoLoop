@@ -17,6 +17,7 @@ class NavigationViewModel: ObservableObject {
     @Published var isAuthenticated: Bool = false
 
     func goToLogin() {
+
         navigationPath.append(.login)
     }
 

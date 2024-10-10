@@ -77,4 +77,17 @@ final class LoginUITests: XCTestCase {
         XCTAssertTrue(signUpButtonExists, "The signUp button should exist.")
     }
 
+    func testLoginButtonFunctionalityShouldGoToFeed() {
+        // Arrange
+        let loginButton = app.buttons["LoginButton"]
+        let feedTab = app.tabBars.buttons["FeedTab"]
+
+        // Act
+        loginButton.tap()
+
+        // Assert
+        XCTAssertTrue(feedTab.waitForExistence(timeout: 3), "The feed tab should be visible.")
+
+    }
+
 }
