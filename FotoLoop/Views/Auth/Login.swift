@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Login: View {
 
+    @EnvironmentObject private var navViewModel: NavigationViewModel
+
     var body: some View {
         ZStack {
             LinearGradient(colors:
@@ -32,7 +34,7 @@ struct Login: View {
                     }
 
                     FLButton(buttonText: LoginConstants.Login.login, action: {
-
+                        navViewModel.goToTabs()
                     }).accessibilityIdentifier("LoginButton")
                     FLSimpleButton(buttonText:
                                     FLStrings
@@ -49,5 +51,5 @@ struct Login: View {
 }
 
 #Preview {
-    Login()
+    Login().environmentObject(NavigationViewModel())
 }

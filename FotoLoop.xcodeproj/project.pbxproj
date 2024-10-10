@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12092C542CB7E85400F30358 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C532CB7E85400F30358 /* NavigationViewModel.swift */; };
+		12092C562CB7E88B00F30358 /* NavigationStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C552CB7E88B00F30358 /* NavigationStates.swift */; };
+		12092C5A2CB7EC8500F30358 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C592CB7EC8500F30358 /* MainNavigation.swift */; };
 		121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */; };
 		121D700B2CB6AC7F00D58AC8 /* LoginConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */; };
 		121D700D2CB6AC8900D58AC8 /* RegisterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */; };
@@ -79,6 +82,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12092C532CB7E85400F30358 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		12092C552CB7E88B00F30358 /* NavigationStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStates.swift; sourceTree = "<group>"; };
+		12092C592CB7EC8500F30358 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
 		121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLStringsUnitTests.swift; sourceTree = "<group>"; };
 		121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConstants.swift; sourceTree = "<group>"; };
 		121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstants.swift; sourceTree = "<group>"; };
@@ -172,6 +178,7 @@
 		121D70142CB6DC1900D58AC8 /* MainNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				12092C592CB7EC8500F30358 /* MainNavigation.swift */,
 			);
 			path = MainNavigation;
 			sourceTree = "<group>";
@@ -303,6 +310,7 @@
 		12DCF71F2CB001B4003C4E91 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				12092C532CB7E85400F30358 /* NavigationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -310,6 +318,7 @@
 		12DCF7202CB001BB003C4E91 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				12092C552CB7E88B00F30358 /* NavigationStates.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -594,6 +603,7 @@
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
 				12DCF7452CB009CA003C4E91 /* FLImagePicker.swift in Sources */,
 				12DCF7362CB00435003C4E91 /* Colors.swift in Sources */,
+				12092C5A2CB7EC8500F30358 /* MainNavigation.swift in Sources */,
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
 				12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */,
 				12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */,
@@ -612,8 +622,10 @@
 				12DCF7432CB009B8003C4E91 /* FLPost.swift in Sources */,
 				12DCF7552CB02A23003C4E91 /* FLLogo.swift in Sources */,
 				12DCF76E2CB433DC003C4E91 /* FLTextFieldStyle.swift in Sources */,
+				12092C562CB7E88B00F30358 /* NavigationStates.swift in Sources */,
 				12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */,
 				125E2B3E2CB69D020049F409 /* FLStrings.swift in Sources */,
+				12092C542CB7E85400F30358 /* NavigationViewModel.swift in Sources */,
 				12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */,
 				12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */,
 				123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */,

@@ -10,13 +10,18 @@ import SwiftUI
 @main
 struct FotoLoopApp: App {
 
+    @StateObject private var navViewModel = NavigationViewModel()
+
     var body: some Scene {
         WindowGroup {
-           Login()
+            NavigationStack(path: $navViewModel.navigationPath) {
+                // Start on login page for now
+                MainNavigation()
+            }.environmentObject(navViewModel)
         }
     }
-}
 
-#Preview {
-    Login()
+    #Preview {
+        Login()
+    }
 }
