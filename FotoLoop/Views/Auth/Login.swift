@@ -9,8 +9,6 @@ import SwiftUI
 
 struct Login: View {
 
-    @EnvironmentObject var navigationVM: NavigationViewModel
-
     var body: some View {
         ZStack {
             LinearGradient(colors:
@@ -51,5 +49,5 @@ struct Login: View {
 }
 
 #Preview {
-    Login().environmentObject(NavigationViewModel())
+    Login()
 }

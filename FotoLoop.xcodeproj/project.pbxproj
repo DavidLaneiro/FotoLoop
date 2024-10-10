@@ -10,9 +10,6 @@
 		121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */; };
 		121D700B2CB6AC7F00D58AC8 /* LoginConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */; };
 		121D700D2CB6AC8900D58AC8 /* RegisterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */; };
-		121D700F2CB6CAC500D58AC8 /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700E2CB6CAC500D58AC8 /* NavigationState.swift */; };
-		121D70112CB6CBCB00D58AC8 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D70102CB6CBCB00D58AC8 /* NavigationViewModel.swift */; };
-		121D70132CB6DA1E00D58AC8 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D70122CB6DA1E00D58AC8 /* Navigation.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -85,9 +82,6 @@
 		121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLStringsUnitTests.swift; sourceTree = "<group>"; };
 		121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConstants.swift; sourceTree = "<group>"; };
 		121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstants.swift; sourceTree = "<group>"; };
-		121D700E2CB6CAC500D58AC8 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationState.swift; path = FotoLoop/Models/NavigationState.swift; sourceTree = SOURCE_ROOT; };
-		121D70102CB6CBCB00D58AC8 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationViewModel.swift; path = FotoLoop/ViewModels/NavigationViewModel.swift; sourceTree = SOURCE_ROOT; };
-		121D70122CB6DA1E00D58AC8 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -178,7 +172,6 @@
 		121D70142CB6DC1900D58AC8 /* MainNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				121D70122CB6DA1E00D58AC8 /* Navigation.swift */,
 			);
 			path = MainNavigation;
 			sourceTree = "<group>";
@@ -310,7 +303,6 @@
 		12DCF71F2CB001B4003C4E91 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				121D70102CB6CBCB00D58AC8 /* NavigationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -318,7 +310,6 @@
 		12DCF7202CB001BB003C4E91 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				121D700E2CB6CAC500D58AC8 /* NavigationState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -601,12 +592,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
-				121D700F2CB6CAC500D58AC8 /* NavigationState.swift in Sources */,
 				12DCF7452CB009CA003C4E91 /* FLImagePicker.swift in Sources */,
 				12DCF7362CB00435003C4E91 /* Colors.swift in Sources */,
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
 				12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */,
-				121D70112CB6CBCB00D58AC8 /* NavigationViewModel.swift in Sources */,
 				12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */,
 				121D700B2CB6AC7F00D58AC8 /* LoginConstants.swift in Sources */,
 				123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */,
@@ -626,7 +615,6 @@
 				12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */,
 				125E2B3E2CB69D020049F409 /* FLStrings.swift in Sources */,
 				12DCF7492CB00A75003C4E91 /* FLTitle.swift in Sources */,
-				121D70132CB6DA1E00D58AC8 /* Navigation.swift in Sources */,
 				12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */,
 				123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */,
 				12DCF7412CB009A6003C4E91 /* FLList.swift in Sources */,
