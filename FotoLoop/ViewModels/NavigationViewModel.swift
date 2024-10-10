@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NavigationViewModel: ObservableObject, NavigationProtocol {
+class NavigationViewModel: ObservableObject{
 
     // MARK: View model that manages app navigation
 

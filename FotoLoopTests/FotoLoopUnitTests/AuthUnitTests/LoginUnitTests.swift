@@ -15,9 +15,6 @@ final class LoginUnitTests: XCTestCase {
     override func setUpWithError() throws {
         
         login = Login()
-
-        
-
     }
 
     override func tearDownWithError() throws {
