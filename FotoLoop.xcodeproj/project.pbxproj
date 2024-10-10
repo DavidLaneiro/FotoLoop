@@ -11,6 +11,8 @@
 		12092C562CB7E88B00F30358 /* NavigationStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C552CB7E88B00F30358 /* NavigationStates.swift */; };
 		12092C5A2CB7EC8500F30358 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C592CB7EC8500F30358 /* MainNavigation.swift */; };
 		12092C632CB811B800F30358 /* FLRegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C622CB811B800F30358 /* FLRegisterForm.swift */; };
+		12092C652CB8164E00F30358 /* LoginConstantsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C642CB8164E00F30358 /* LoginConstantsUnitTests.swift */; };
+		12092C672CB8168600F30358 /* RegisterConstantsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C662CB8168600F30358 /* RegisterConstantsUnitTests.swift */; };
 		121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */; };
 		121D700B2CB6AC7F00D58AC8 /* LoginConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */; };
 		121D700D2CB6AC8900D58AC8 /* RegisterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */; };
@@ -87,6 +89,8 @@
 		12092C552CB7E88B00F30358 /* NavigationStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStates.swift; sourceTree = "<group>"; };
 		12092C592CB7EC8500F30358 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
 		12092C622CB811B800F30358 /* FLRegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRegisterForm.swift; sourceTree = "<group>"; };
+		12092C642CB8164E00F30358 /* LoginConstantsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConstantsUnitTests.swift; sourceTree = "<group>"; };
+		12092C662CB8168600F30358 /* RegisterConstantsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstantsUnitTests.swift; sourceTree = "<group>"; };
 		121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLStringsUnitTests.swift; sourceTree = "<group>"; };
 		121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConstants.swift; sourceTree = "<group>"; };
 		121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstants.swift; sourceTree = "<group>"; };
@@ -212,6 +216,8 @@
 			children = (
 				123F7D772CB5865A00864DF0 /* UIConstantsUnitTests.swift */,
 				123F7D792CB588EC00864DF0 /* ColorsUnitTests.swift */,
+				12092C642CB8164E00F30358 /* LoginConstantsUnitTests.swift */,
+				12092C662CB8168600F30358 /* RegisterConstantsUnitTests.swift */,
 			);
 			path = ConstantsUnitTests;
 			sourceTree = "<group>";
@@ -677,6 +683,8 @@
 				12CE5CED2CB553F2008D47FA /* LoginUnitTests.swift in Sources */,
 				12CE5CF52CB55430008D47FA /* TabsUnitTests.swift in Sources */,
 				12CE5CFA2CB5545E008D47FA /* EditProfileUnitTests.swift in Sources */,
+				12092C652CB8164E00F30358 /* LoginConstantsUnitTests.swift in Sources */,
+				12092C672CB8168600F30358 /* RegisterConstantsUnitTests.swift in Sources */,
 				12CE5CFC2CB55469008D47FA /* CreatePostUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
