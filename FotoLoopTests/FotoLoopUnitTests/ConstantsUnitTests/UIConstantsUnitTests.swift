@@ -39,5 +39,4 @@ final class UIConstantsUnitTests: XCTestCase {
         XCTAssertEqual(UIConstants.Logo.logoTitle, "FotoLoop", "The logo title value does not match.")
     }
 
-
 }

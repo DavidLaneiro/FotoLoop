@@ -13,7 +13,7 @@ final class RegisterConstantsUnitTests: XCTestCase {
     func testUsernameTitle() {
         XCTAssertEqual(RegisterConstants.Register.username, "Username", "The username title value does not match.")
     }
-    
+
     func testEmailTitle() {
         XCTAssertEqual(RegisterConstants.Register.email, "Email", "The email title value does not match.")
     }

@@ -15,7 +15,15 @@ final class TabsUITests: XCTestCase {
 
         continueAfterFailure = false
         app = XCUIApplication()
+        app.launchArguments = ["-UITest"]
         app.launch()
+
+        // Go to tabs screen
+        if app.buttons["LoginButton"].waitForExistence(timeout: 3) {
+            app.buttons["LoginButton"].tap()
+        } else {
+            XCTFail("The sign up button should exist on screen.")
+        }
 
     }
 
@@ -29,10 +37,8 @@ final class TabsUITests: XCTestCase {
         let tabBar = app.tabBars
         let feedTab = tabBar.buttons["FeedTab"]
 
-        print(app.images.firstMatch.identifier)
-
         // Act
-        let feedTabExists = feedTab.exists
+        let feedTabExists = feedTab.waitForExistence(timeout: 3)
 
         // Assert
         XCTAssertTrue(feedTabExists, "Feed tab should exist.")
@@ -45,7 +51,7 @@ final class TabsUITests: XCTestCase {
         let profileTab = tabBar.buttons["ProfileTab"]
 
         // Act
-        let profileTabExists = profileTab.exists
+        let profileTabExists = profileTab.waitForExistence(timeout: 3)
 
         // Assert
         XCTAssertTrue(profileTabExists, "Profile tab should exist.")
@@ -63,7 +69,7 @@ final class TabsUITests: XCTestCase {
 
         // Assert
 
-        XCTAssertTrue(feedScreen.exists, "The feed screen should be on display.")
+        XCTAssertTrue(feedScreen.waitForExistence(timeout: 3), "The feed screen should be on display.")
 
     }
 
@@ -77,7 +83,7 @@ final class TabsUITests: XCTestCase {
         profileTab.tap()
 
         // Assert
-        XCTAssertTrue(profileScreen.exists, "The profile screen should be on display.")
+        XCTAssertTrue(profileScreen.waitForExistence(timeout: 3), "The profile screen should be on display.")
 
     }
 

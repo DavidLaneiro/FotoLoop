@@ -15,6 +15,7 @@ final class LoginUITests: XCTestCase {
 
         continueAfterFailure = false
         app = XCUIApplication()
+        app.launchArguments = ["-UITest"]
         app.launch()
     }
 
@@ -88,6 +89,19 @@ final class LoginUITests: XCTestCase {
 
         // Assert
         XCTAssertTrue(feedTab.waitForExistence(timeout: 3), "The feed tab should be visible.")
+
+    }
+
+    func testSignUpButtonFunctionalityShouldGoToSignUp() {
+        // Arrange
+        let signUpButton = app.buttons["SignUpButton"]
+        let registerButton = app.buttons["RegisterButton"]
+
+        // Act
+        signUpButton.tap()
+
+        // Assert
+        XCTAssertTrue(registerButton.waitForExistence(timeout: 3), "The login button should be visible.")
 
     }
 
