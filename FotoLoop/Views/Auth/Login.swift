@@ -40,7 +40,9 @@ struct Login: View {
                     FLSimpleButton(buttonText:
                                     FLStrings
                         .createAttributedString(stringToTransform: LoginConstants.Login.signUp,
-                                                substringToStyle: "Sign Up"), action: {})
+                                                substringToStyle: "Sign Up"), action: {
+                        navViewModel.goToRegister()
+                    })
                     .accessibilityIdentifier("SignUpButton")
 
                 }.padding(EdgeInsets(top: 40, leading: 0, bottom: 20, trailing: 0))

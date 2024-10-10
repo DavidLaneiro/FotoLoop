@@ -24,20 +24,22 @@ struct Register: View {
                     FLRegisterForm()
 
                     FLButton(buttonText: RegisterConstants.Register.signUp, action: {
-
+                        navViewModel.goToTabs()
                     }).accessibilityIdentifier("RegisterButton")
 
                     FLSimpleButton(buttonText:
                                     FLStrings
                         .createAttributedString(stringToTransform: RegisterConstants.Register.alreadyHaveAccount,
-                                                substringToStyle: "Login"), action: {})
+                                                substringToStyle: "Login"), action: {
+                        navViewModel.goBack()
+                    })
                     .accessibilityIdentifier("BackToLoginButton")
 
                 }.padding(EdgeInsets(top: 40, leading: 0, bottom: 20, trailing: 0))
 
             }
 
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

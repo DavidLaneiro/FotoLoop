@@ -30,7 +30,7 @@ struct MainNavigation: View {
                 Login()
 
             case .register:
-                Text("")
+                Register()
 
             case .tabs:
                 Tabs()

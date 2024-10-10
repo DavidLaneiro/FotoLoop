@@ -25,4 +25,12 @@ class NavigationViewModel: ObservableObject {
         navigationPath.append(.tabs)
     }
 
+    func goToRegister() {
+        navigationPath.append(.register)
+    }
+
+    func goBack() {
+        navigationPath.removeLast()
+    }
+
 }

@@ -27,6 +27,7 @@ struct Tabs: View {
 
         }
         .tint(Colors.sandyBrownOrange300)
+        .navigationBarBackButtonHidden(true)
 
     }
 }
