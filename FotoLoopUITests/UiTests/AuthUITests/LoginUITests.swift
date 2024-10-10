@@ -77,7 +77,6 @@ final class LoginUITests: XCTestCase {
         XCTAssertTrue(signUpButtonExists, "The signUp button should exist.")
     }
 
-    
     // Good for now
     func testLoginButtonFunctionalityShouldGoToFeed() {
         // Arrange
@@ -91,6 +90,5 @@ final class LoginUITests: XCTestCase {
         XCTAssertTrue(feedTab.waitForExistence(timeout: 3), "The feed tab should be visible.")
 
     }
-    
 
 }
