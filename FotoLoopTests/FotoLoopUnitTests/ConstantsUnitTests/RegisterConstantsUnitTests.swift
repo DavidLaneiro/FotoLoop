@@ -10,30 +10,33 @@ import XCTest
 
 final class RegisterConstantsUnitTests: XCTestCase {
 
-    func testUsernameTitle() {
-        XCTAssertEqual(RegisterConstants.Register.username, "Username", "The username title value does not match.")
-    }
+    func testRegisterConstantsValues() {
+        // Arrange
+        let expectedValues = [
+            "Username",
+            "Email",
+            "Password",
+            "Repeat password",
+            "Sign up",
+            "Already have an account? Login"
+        ]
 
-    func testEmailTitle() {
-        XCTAssertEqual(RegisterConstants.Register.email, "Email", "The email title value does not match.")
-    }
+        // Act
+        let actualValues = [
+            RegisterConstants.Register.username,
+            RegisterConstants.Register.email,
+            RegisterConstants.Register.password,
+            RegisterConstants.Register.repeatPassword,
+            RegisterConstants.Register.signUp,
+            RegisterConstants.Register.alreadyHaveAccount
 
-    func testPasswordTitle() {
-        XCTAssertEqual(RegisterConstants.Register.password, "Password", "The password title value does not match.")
-    }
+        ]
 
-    func testRepeatPasswordTitle() {
-        XCTAssertEqual(RegisterConstants.Register.repeatPassword, "Repeat password",
-                       "The repeat password title value does not match.")
-    }
+        // Assert
+        for (index, expectedValue) in expectedValues.enumerated() {
+            XCTAssertEqual(actualValues[index], expectedValue,
+                           "The register constant at position \(index) should be \(expectedValue)")
+        }
 
-    func testSignupTitle() {
-        XCTAssertEqual(RegisterConstants.Register.signUp, "Sign up",
-                       "The sign up title value does not match.")
-    }
-
-    func testAlreadyHaveAccountTitle() {
-        XCTAssertEqual(RegisterConstants.Register.alreadyHaveAccount, "Already have an account? Login",
-                       "The already have an account title value does not match.")
     }
 }

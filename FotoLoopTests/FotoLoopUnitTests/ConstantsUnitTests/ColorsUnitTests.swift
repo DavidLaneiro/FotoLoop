@@ -11,39 +11,34 @@ import SwiftUI
 
 final class ColorsUnitTests: XCTestCase {
 
-    func testSpaceGray500Color() {
-        let expectedColor = Color(hex: "#3E4E50")
-        XCTAssertEqual(Colors.spaceGray500, expectedColor)
-    }
+    func testColorsValues() {
+        // Arrange
+        let expectedColors = [
+            Color(hex: "#3E4E50"),
+            Color(hex: "#F5AC72"),
+            Color(hex: "#F2AA7E"),
+            Color(hex: "#F8BD7F"),
+            Color(hex: "#FACFAD"),
+            Color(uiColor: .black),
+            Color(uiColor: .white)
+        ]
 
-    func testSandyBrownOrange500Color() {
-        let expectedColor = Color(hex: "#F5AC72")
-        XCTAssertEqual(Colors.sandyBrownOrange500, expectedColor)
-    }
+        // Act
+        let actualColors = [
+            Colors.spaceGray500,
+            Colors.sandyBrownOrange500,
+            Colors.sandyBrownOrange300,
+            Colors.fawn500,
+            Colors.apricot300,
+            Colors.black,
+            Colors.white
+        ]
 
-    func testSandyBrownOrange300Color() {
-        let expectedColor = Color(hex: "#F2AA7E")
-        XCTAssertEqual(Colors.sandyBrownOrange300, expectedColor)
-    }
+        // Assert
+        for (index, expectedColor) in expectedColors.enumerated() {
+            XCTAssertEqual(actualColors[index], expectedColor,
+                           "The color constant at position \(index) should be \(expectedColor)")
+        }
 
-    func testFawn500Color() {
-        let expectedColor = Color(hex: "#F8BD7F")
-        XCTAssertEqual(Colors.fawn500, expectedColor)
     }
-
-    func testApricot300Color() {
-        let expectedColor = Color(hex: "#FACFAD")
-        XCTAssertEqual(Colors.apricot300, expectedColor)
-    }
-
-    func testBlackColor() {
-        let expectedColor = Color(uiColor: .black)
-        XCTAssertEqual(Colors.black, expectedColor)
-    }
-
-    func testWhiteColor() {
-        let expectedColor = Color(uiColor: .white)
-        XCTAssertEqual(Colors.white, expectedColor)
-    }
-
 }

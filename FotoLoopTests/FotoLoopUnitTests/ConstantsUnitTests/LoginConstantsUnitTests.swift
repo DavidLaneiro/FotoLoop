@@ -10,27 +10,30 @@ import XCTest
 
 final class LoginConstantsUnitTests: XCTestCase {
 
-    func testEmailTitle() {
-        XCTAssertEqual(LoginConstants.Login.email, "Email", "The email title value does not match.")
-    }
+    func testLoginConstantsValues() {
+        // Arrange
+        let expectedValues = [
+            "Email",
+            "Password",
+            "Forgot password?",
+            "Login",
+            "Don't have an account? Sign Up"
+        ]
 
-    func testPasswordTitle() {
-        XCTAssertEqual(LoginConstants.Login.password, "Password", "The password title value does not match.")
-    }
+        // Act
+        let actualValues = [
+            LoginConstants.Login.email,
+            LoginConstants.Login.password,
+            LoginConstants.Login.forgotPassword,
+            LoginConstants.Login.login,
+            LoginConstants.Login.signUp
+        ]
 
-    func testForgotPasswordTitle() {
-        XCTAssertEqual(LoginConstants.Login.forgotPassword, "Forgot password?",
-                       "The forgot password title value does not match.")
-    }
+        // Assert
+        for (index, expectedValue) in expectedValues.enumerated() {
+            XCTAssertEqual(actualValues[index], expectedValue,
+                           "The login constant at position \(index) should be \(expectedValue)")
+        }
 
-    func testLoginTitle() {
-        XCTAssertEqual(LoginConstants.Login.login, "Login",
-                       "The login title value does not match.")
     }
-
-    func testSignupTitle() {
-        XCTAssertEqual(LoginConstants.Login.signUp, "Don't have an account? Sign Up",
-                       "The sign up title value does not match.")
-    }
-
 }

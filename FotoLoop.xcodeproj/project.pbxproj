@@ -13,6 +13,7 @@
 		12092C632CB811B800F30358 /* FLRegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C622CB811B800F30358 /* FLRegisterForm.swift */; };
 		12092C652CB8164E00F30358 /* LoginConstantsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C642CB8164E00F30358 /* LoginConstantsUnitTests.swift */; };
 		12092C672CB8168600F30358 /* RegisterConstantsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C662CB8168600F30358 /* RegisterConstantsUnitTests.swift */; };
+		12092D902CBD26C800F30358 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092D8F2CBD26C800F30358 /* ForgotPassword.swift */; };
 		121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */; };
 		121D700B2CB6AC7F00D58AC8 /* LoginConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */; };
 		121D700D2CB6AC8900D58AC8 /* RegisterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */; };
@@ -91,6 +92,7 @@
 		12092C622CB811B800F30358 /* FLRegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRegisterForm.swift; sourceTree = "<group>"; };
 		12092C642CB8164E00F30358 /* LoginConstantsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConstantsUnitTests.swift; sourceTree = "<group>"; };
 		12092C662CB8168600F30358 /* RegisterConstantsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstantsUnitTests.swift; sourceTree = "<group>"; };
+		12092D8F2CBD26C800F30358 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		121D70082CB6A36100D58AC8 /* FLStringsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLStringsUnitTests.swift; sourceTree = "<group>"; };
 		121D700A2CB6AC7F00D58AC8 /* LoginConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConstants.swift; sourceTree = "<group>"; };
 		121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstants.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 			children = (
 				12DCF72B2CB00379003C4E91 /* Register.swift */,
 				12DCF7292CB00370003C4E91 /* Login.swift */,
+				12092D8F2CBD26C800F30358 /* ForgotPassword.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -665,6 +668,7 @@
 				123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */,
 				12DCF7412CB009A6003C4E91 /* FLList.swift in Sources */,
 				12DCF7472CB00A03003C4E91 /* PostDetails.swift in Sources */,
+				12092D902CBD26C800F30358 /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
