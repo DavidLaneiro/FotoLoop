@@ -44,5 +44,10 @@ struct Register: View {
 }
 
 #Preview {
-    Register().environmentObject(NavigationViewModel())
+    let navViewModel = NavigationViewModel()
+    
+    navViewModel.goToLogin()
+    navViewModel.goToRegister()
+    
+    return Register().environmentObject(navViewModel)
 }

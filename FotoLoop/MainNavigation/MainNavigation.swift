@@ -24,7 +24,7 @@ struct MainNavigation: View {
             switch navigation {
 
             case .forgotPassword:
-                Text("")
+                ForgotPassword()
 
             case .login:
                 Login()

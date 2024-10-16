@@ -29,6 +29,10 @@ class NavigationViewModel: ObservableObject {
         navigationPath.append(.register)
     }
 
+    func goToForgotPassword() {
+        navigationPath.append(.forgotPassword)
+    }
+
     func goBack() {
         navigationPath.removeLast()
     }

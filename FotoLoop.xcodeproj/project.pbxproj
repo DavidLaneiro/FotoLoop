@@ -185,7 +185,6 @@
 		12092C5E2CB8080300F30358 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				12092C552CB7E88B00F30358 /* NavigationStates.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -352,6 +351,7 @@
 		12DCF7202CB001BB003C4E91 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				12092C552CB7E88B00F30358 /* NavigationStates.swift */,
 				12092C5E2CB8080300F30358 /* Enums */,
 			);
 			path = Models;

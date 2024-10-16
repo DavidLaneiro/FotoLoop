@@ -27,7 +27,9 @@ struct Login: View {
                         Spacer()
                         FLSimpleButton(buttonText: FLStrings
                             .createAttributedString(stringToTransform: LoginConstants.Login.forgotPassword,
-                                                    substringToStyle: ""), action: {})
+                                                    substringToStyle: ""), action: {
+                            navViewModel.goToForgotPassword()
+                        })
                             .foregroundStyle(Colors.spaceGray500)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
                             .accessibilityIdentifier("ForgotPasswordButton")
@@ -54,5 +56,9 @@ struct Login: View {
 }
 
 #Preview {
-    Login().environmentObject(NavigationViewModel())
+    let navViewModel = NavigationViewModel()
+    
+    navViewModel.goToLogin()
+    
+    return Login().environmentObject(navViewModel)
 }
