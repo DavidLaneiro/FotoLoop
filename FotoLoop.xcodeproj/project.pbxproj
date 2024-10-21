@@ -26,6 +26,7 @@
 		123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */; };
 		123AB5672CC6A56D00E6D8DA /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5662CC6A56D00E6D8DA /* FormValidator.swift */; };
 		123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */; };
+		123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -114,6 +115,7 @@
 		123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewModel.swift; sourceTree = "<group>"; };
 		123AB5662CC6A56D00E6D8DA /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
 		123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorProtocol.swift; sourceTree = "<group>"; };
+		123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorMock.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 		12092C5B2CB7F6DA00F30358 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -742,6 +745,7 @@
 				12092C652CB8164E00F30358 /* LoginConstantsUnitTests.swift in Sources */,
 				12092C672CB8168600F30358 /* RegisterConstantsUnitTests.swift in Sources */,
 				12CE5CFC2CB55469008D47FA /* CreatePostUnitTests.swift in Sources */,
+				123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
