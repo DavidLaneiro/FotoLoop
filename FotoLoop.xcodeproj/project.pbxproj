@@ -24,6 +24,8 @@
 		123AB55F2CC69F1D00E6D8DA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB55E2CC69F1D00E6D8DA /* FeedViewModel.swift */; };
 		123AB5612CC69F2800E6D8DA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5602CC69F2800E6D8DA /* ProfileViewModel.swift */; };
 		123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */; };
+		123AB5672CC6A56D00E6D8DA /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5662CC6A56D00E6D8DA /* FormValidator.swift */; };
+		123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -110,6 +112,8 @@
 		123AB55E2CC69F1D00E6D8DA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		123AB5602CC69F2800E6D8DA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewModel.swift; sourceTree = "<group>"; };
+		123AB5662CC6A56D00E6D8DA /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
+		123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorProtocol.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -199,6 +203,7 @@
 		12092C5E2CB8080300F30358 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				12092C552CB7E88B00F30358 /* NavigationStates.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 		12092C5F2CB8081000F30358 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -224,6 +230,21 @@
 				12092C592CB7EC8500F30358 /* MainNavigation.swift */,
 			);
 			path = MainNavigation;
+			sourceTree = "<group>";
+		};
+		123AB5642CC6A52A00E6D8DA /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				123AB5662CC6A56D00E6D8DA /* FormValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		123AB5652CC6A53200E6D8DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		123F7D742CB5862500864DF0 /* ConstantsUnitTests */ = {
@@ -302,6 +323,8 @@
 		12DCF6F32CAFFEA5003C4E91 /* FotoLoop */ = {
 			isa = PBXGroup;
 			children = (
+				123AB5652CC6A53200E6D8DA /* Services */,
+				123AB5642CC6A52A00E6D8DA /* Validators */,
 				12092C5F2CB8081000F30358 /* Protocols */,
 				12DCF76C2CB433B9003C4E91 /* UIUtils */,
 				12DCF7392CB008FF003C4E91 /* Components */,
@@ -370,7 +393,6 @@
 		12DCF7202CB001BB003C4E91 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				12092C552CB7E88B00F30358 /* NavigationStates.swift */,
 				12092C5E2CB8080300F30358 /* Enums */,
 				123AB5562CC69BEB00E6D8DA /* User.swift */,
 				123AB5582CC69BF900E6D8DA /* Post.swift */,
@@ -657,6 +679,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */,
 				123AB55F2CC69F1D00E6D8DA /* FeedViewModel.swift in Sources */,
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
 				123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */,
@@ -674,6 +697,7 @@
 				12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */,
 				123F7D732CB57F8400864DF0 /* FLSimpleButton.swift in Sources */,
 				12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */,
+				123AB5672CC6A56D00E6D8DA /* FormValidator.swift in Sources */,
 				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
 				123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */,
 				12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */,

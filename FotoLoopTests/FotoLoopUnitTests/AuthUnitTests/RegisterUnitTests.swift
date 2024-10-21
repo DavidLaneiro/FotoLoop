@@ -17,67 +17,67 @@ final class RegisterUnitTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testValidUsernameFormat(){
-        
+    func testValidUsernameFormat() {
+
     }
-    
-    func testInvalidUsernameFormat(){
-        
+
+    func testInvalidUsernameFormat() {
+
     }
-    
-    func testValidEmailFormat(){
-        
+
+    func testValidEmailFormat() {
+
     }
-    
-    func testInvalidEmailFormat(){
-        
+
+    func testInvalidEmailFormat() {
+
     }
-    
-    func testValidFirstNameFormat(){
-        
+
+    func testValidFirstNameFormat() {
+
     }
-    
-    func testInvalidFirstNameFormat(){
-        
+
+    func testInvalidFirstNameFormat() {
+
     }
-    
-    func testValidLastNameFormat(){
-        
+
+    func testValidLastNameFormat() {
+
     }
-    
-    func testInvalidLastNameFormat(){
-        
+
+    func testInvalidLastNameFormat() {
+
     }
-    
-    func testValidPasswordFormat(){
-        
+
+    func testValidPasswordFormat() {
+
     }
-    
-    func testInvalidPasswordFormat(){
-        
+
+    func testInvalidPasswordFormat() {
+
     }
-    
-    func testValidRepeatPasswordFormat(){
-        
+
+    func testValidRepeatPasswordFormat() {
+
     }
-    
-    func testInvalidRepeatPasswordFormat(){
-        
+
+    func testInvalidRepeatPasswordFormat() {
+
     }
-    
-    func testSuccessfulRegistration(){
-        
+
+    func testSuccessfulRegistration() {
+
     }
-    
-    func testFailedRegistration(){
-        
+
+    func testFailedRegistration() {
+
     }
-    
-    func testFormValidatiorIsCalled(){
-        
+
+    func testFormValidatiorIsCalled() {
+
     }
-    
-    func testLoadingDuringRegistration(){
-        
+
+    func testLoadingDuringRegistration() {
+
     }
 }

@@ -7,10 +7,12 @@
 
 import Foundation
 
-class RegisterViewModel : ObservableObject{
-    
-    
-    
-    
-    
+class RegisterViewModel: ObservableObject {
+
+    // Variables
+
+    // Init with a form validator
+
+    // Functions
+
 }
