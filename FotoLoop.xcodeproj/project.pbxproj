@@ -19,6 +19,11 @@
 		121D700D2CB6AC8900D58AC8 /* RegisterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */; };
 		123AB5572CC69BEB00E6D8DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5562CC69BEB00E6D8DA /* User.swift */; };
 		123AB5592CC69BF900E6D8DA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5582CC69BF900E6D8DA /* Post.swift */; };
+		123AB55B2CC69F0300E6D8DA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB55A2CC69F0300E6D8DA /* LoginViewModel.swift */; };
+		123AB55D2CC69F0C00E6D8DA /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB55C2CC69F0C00E6D8DA /* RegisterViewModel.swift */; };
+		123AB55F2CC69F1D00E6D8DA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB55E2CC69F1D00E6D8DA /* FeedViewModel.swift */; };
+		123AB5612CC69F2800E6D8DA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5602CC69F2800E6D8DA /* ProfileViewModel.swift */; };
+		123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -100,6 +105,11 @@
 		121D700C2CB6AC8900D58AC8 /* RegisterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstants.swift; sourceTree = "<group>"; };
 		123AB5562CC69BEB00E6D8DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		123AB5582CC69BF900E6D8DA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		123AB55A2CC69F0300E6D8DA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		123AB55C2CC69F0C00E6D8DA /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		123AB55E2CC69F1D00E6D8DA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		123AB5602CC69F2800E6D8DA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewModel.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -348,6 +358,11 @@
 			isa = PBXGroup;
 			children = (
 				12092C532CB7E85400F30358 /* NavigationViewModel.swift */,
+				123AB55A2CC69F0300E6D8DA /* LoginViewModel.swift */,
+				123AB55C2CC69F0C00E6D8DA /* RegisterViewModel.swift */,
+				123AB55E2CC69F1D00E6D8DA /* FeedViewModel.swift */,
+				123AB5602CC69F2800E6D8DA /* ProfileViewModel.swift */,
+				123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -642,14 +657,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123AB55F2CC69F1D00E6D8DA /* FeedViewModel.swift in Sources */,
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
+				123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */,
 				12DCF7452CB009CA003C4E91 /* FLImagePicker.swift in Sources */,
 				12DCF7362CB00435003C4E91 /* Colors.swift in Sources */,
 				12092C5A2CB7EC8500F30358 /* MainNavigation.swift in Sources */,
+				123AB55D2CC69F0C00E6D8DA /* RegisterViewModel.swift in Sources */,
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
 				12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */,
 				12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */,
 				121D700B2CB6AC7F00D58AC8 /* LoginConstants.swift in Sources */,
+				123AB55B2CC69F0300E6D8DA /* LoginViewModel.swift in Sources */,
 				123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */,
 				12DCF73D2CB00964003C4E91 /* FLButton.swift in Sources */,
 				12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */,
@@ -675,6 +694,7 @@
 				12DCF6F52CAFFEA5003C4E91 /* FotoLoopApp.swift in Sources */,
 				123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */,
 				12DCF7412CB009A6003C4E91 /* FLList.swift in Sources */,
+				123AB5612CC69F2800E6D8DA /* ProfileViewModel.swift in Sources */,
 				12DCF7472CB00A03003C4E91 /* PostDetails.swift in Sources */,
 				12092D902CBD26C800F30358 /* ForgotPassword.swift in Sources */,
 			);
