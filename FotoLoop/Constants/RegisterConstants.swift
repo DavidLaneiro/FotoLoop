@@ -11,6 +11,8 @@ struct RegisterConstants {
 
     struct Register {
         static let username = "Username"
+        static let firstName = "First name"
+        static let lastName = "Last name"
         static let email = "Email"
         static let password = "Password"
         static let repeatPassword = "Repeat password"

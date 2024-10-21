@@ -7,15 +7,15 @@
 
 import Foundation
 
-struct User : Codable, Identifiable{
+struct User: Codable, Identifiable {
 
-    var id : String
-    var name : String
-    var username : String
+    var id: String
+    var name: String
+    var username: String
     var email: String
     var profileImageUrl: URL?
-    var birthDate : Date?
+    var birthDate: Date?
     var createdAt: Date
-    var isActive : Bool
-    
+    var isActive: Bool
+
 }

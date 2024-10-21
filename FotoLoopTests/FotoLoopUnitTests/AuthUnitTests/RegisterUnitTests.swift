@@ -17,11 +17,67 @@ final class RegisterUnitTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testValidUsernameFormat(){
+        
     }
-
+    
+    func testInvalidUsernameFormat(){
+        
+    }
+    
+    func testValidEmailFormat(){
+        
+    }
+    
+    func testInvalidEmailFormat(){
+        
+    }
+    
+    func testValidFirstNameFormat(){
+        
+    }
+    
+    func testInvalidFirstNameFormat(){
+        
+    }
+    
+    func testValidLastNameFormat(){
+        
+    }
+    
+    func testInvalidLastNameFormat(){
+        
+    }
+    
+    func testValidPasswordFormat(){
+        
+    }
+    
+    func testInvalidPasswordFormat(){
+        
+    }
+    
+    func testValidRepeatPasswordFormat(){
+        
+    }
+    
+    func testInvalidRepeatPasswordFormat(){
+        
+    }
+    
+    func testSuccessfulRegistration(){
+        
+    }
+    
+    func testFailedRegistration(){
+        
+    }
+    
+    func testFormValidatiorIsCalled(){
+        
+    }
+    
+    func testLoadingDuringRegistration(){
+        
+    }
 }
