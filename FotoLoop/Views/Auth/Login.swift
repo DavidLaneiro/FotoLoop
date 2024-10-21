@@ -57,8 +57,8 @@ struct Login: View {
 
 #Preview {
     let navViewModel = NavigationViewModel()
-    
+
     navViewModel.goToLogin()
-    
+
     return Login().environmentObject(navViewModel)
 }

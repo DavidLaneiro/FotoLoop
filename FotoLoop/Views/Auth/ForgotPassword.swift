@@ -44,7 +44,7 @@ struct ForgotPassword: View {
 #Preview {
 
     let navViewModel = NavigationViewModel()
-    
+
     navViewModel.goToLogin()
     navViewModel.goToForgotPassword()
 
