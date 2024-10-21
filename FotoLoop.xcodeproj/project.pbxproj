@@ -27,6 +27,7 @@
 		123AB5672CC6A56D00E6D8DA /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5662CC6A56D00E6D8DA /* FormValidator.swift */; };
 		123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */; };
 		123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */; };
+		123AB5702CC6AD2600E6D8DA /* FormValidatorUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -116,6 +117,7 @@
 		123AB5662CC6A56D00E6D8DA /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
 		123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorProtocol.swift; sourceTree = "<group>"; };
 		123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorMock.swift; sourceTree = "<group>"; };
+		123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorUnitTests.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -250,6 +252,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		123AB56C2CC6ACF300E6D8DA /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
 		123F7D742CB5862500864DF0 /* ConstantsUnitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +274,7 @@
 		12CE5CE92CB553BC008D47FA /* FotoLoopUnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				123AB56C2CC6ACF300E6D8DA /* Validators */,
 				12092C5B2CB7F6DA00F30358 /* Mocks */,
 				121D70072CB6A34500D58AC8 /* UtilsUnitTests */,
 				123F7D742CB5862500864DF0 /* ConstantsUnitTests */,
@@ -735,6 +746,7 @@
 				123F7D782CB5865A00864DF0 /* UIConstantsUnitTests.swift in Sources */,
 				121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */,
 				12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */,
+				123AB5702CC6AD2600E6D8DA /* FormValidatorUnitTests.swift in Sources */,
 				12CE5CEF2CB553FE008D47FA /* RegisterUnitTests.swift in Sources */,
 				123F7D7A2CB588EC00864DF0 /* ColorsUnitTests.swift in Sources */,
 				12DCF7062CAFFEA7003C4E91 /* FotoLoopTests.swift in Sources */,
