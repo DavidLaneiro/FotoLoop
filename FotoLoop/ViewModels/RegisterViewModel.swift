@@ -10,9 +10,18 @@ import Foundation
 class RegisterViewModel: ObservableObject {
 
     // Variables
+    var formValidator: FormValidatorProtocol
 
     // Init with a form validator
+    init(formValidator: FormValidatorProtocol) {
+        self.formValidator = formValidator
+    }
 
     // Functions
+    func register(){
+        
+        // Validate form and catch success or error
+        
+    }
 
 }

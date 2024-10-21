@@ -17,63 +17,15 @@ final class RegisterUnitTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testValidUsernameFormat() {
-
+    func testRegistrationIsSuccessful(){
+        
+    }
+    
+    func testRegistrationIsNotSuccessful(){
+        
     }
 
-    func testInvalidUsernameFormat() {
-
-    }
-
-    func testValidEmailFormat() {
-
-    }
-
-    func testInvalidEmailFormat() {
-
-    }
-
-    func testValidFirstNameFormat() {
-
-    }
-
-    func testInvalidFirstNameFormat() {
-
-    }
-
-    func testValidLastNameFormat() {
-
-    }
-
-    func testInvalidLastNameFormat() {
-
-    }
-
-    func testValidPasswordFormat() {
-
-    }
-
-    func testInvalidPasswordFormat() {
-
-    }
-
-    func testValidRepeatPasswordFormat() {
-
-    }
-
-    func testInvalidRepeatPasswordFormat() {
-
-    }
-
-    func testSuccessfulRegistration() {
-
-    }
-
-    func testFailedRegistration() {
-
-    }
-
-    func testFormValidatiorIsCalled() {
+    func testFormValidatorIsCalled() {
 
     }
 
