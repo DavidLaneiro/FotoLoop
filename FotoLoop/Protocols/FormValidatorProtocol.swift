@@ -15,6 +15,6 @@ protocol FormValidatorProtocol {
     func validatePassword(_ password: String) -> Bool
     func validateRepeatPassword(_ password: String, _ repeatPassword: String) -> Bool
     func validateAllFields(
-        name: String, email: String, lastName: String, password: String, repeatPassword: String
+        username: String, email: String, firstName: String, lastName: String, password: String, repeatPassword: String
     ) -> Bool
 }
