@@ -18,10 +18,10 @@ class RegisterViewModel: ObservableObject {
     }
 
     // Functions
-    func register(){
-        
+    func register() {
+
         // Validate form and catch success or error
-        
+
     }
 
 }

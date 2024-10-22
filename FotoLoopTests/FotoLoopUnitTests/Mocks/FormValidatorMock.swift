@@ -8,8 +8,8 @@
 import Foundation
 @testable import FotoLoop
 
-class FormValidatorMock : FormValidatorProtocol{
-    
+class FormValidatorMock: FormValidatorProtocol {
+
     func validateUsername(_ username: String) -> Bool {
         // Validate username code
         return true
@@ -40,10 +40,11 @@ class FormValidatorMock : FormValidatorProtocol{
         return true
     }
 
-    
-    func validateAllFields(username: String, email: String, firstName: String, lastName: String, password: String, repeatPassword: String) -> Bool {
+    func validateAllFields
+    (registerForm: RegisterForm)
+    -> Bool {
         // Validate all fields code
         return true
     }
-    
+
 }

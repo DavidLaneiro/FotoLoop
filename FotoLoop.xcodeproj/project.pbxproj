@@ -28,6 +28,7 @@
 		123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */; };
 		123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */; };
 		123AB5702CC6AD2600E6D8DA /* FormValidatorUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */; };
+		123AB5742CC7ECEF00E6D8DA /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5732CC7ECEF00E6D8DA /* RegisterForm.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -118,6 +119,7 @@
 		123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorProtocol.swift; sourceTree = "<group>"; };
 		123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorMock.swift; sourceTree = "<group>"; };
 		123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorUnitTests.swift; sourceTree = "<group>"; };
+		123AB5732CC7ECEF00E6D8DA /* RegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterForm.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -410,6 +412,7 @@
 				12092C5E2CB8080300F30358 /* Enums */,
 				123AB5562CC69BEB00E6D8DA /* User.swift */,
 				123AB5582CC69BF900E6D8DA /* Post.swift */,
+				123AB5732CC7ECEF00E6D8DA /* RegisterForm.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -694,6 +697,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */,
+				123AB5742CC7ECEF00E6D8DA /* RegisterForm.swift in Sources */,
 				123AB55F2CC69F1D00E6D8DA /* FeedViewModel.swift in Sources */,
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
 				123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */,
