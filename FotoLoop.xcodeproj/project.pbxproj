@@ -29,6 +29,9 @@
 		123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */; };
 		123AB5702CC6AD2600E6D8DA /* FormValidatorUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */; };
 		123AB5742CC7ECEF00E6D8DA /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5732CC7ECEF00E6D8DA /* RegisterForm.swift */; };
+		123AB5762CC7F0AC00E6D8DA /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5752CC7F0AC00E6D8DA /* RegisterService.swift */; };
+		123AB57A2CC7F0F300E6D8DA /* RegisterServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */; };
+		123AB57C2CC7F10400E6D8DA /* RegisterServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB57B2CC7F10400E6D8DA /* RegisterServiceProtocol.swift */; };
 		123F7D632CB56ECE00864DF0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D622CB56ECE00864DF0 /* UIConstants.swift */; };
 		123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */; };
 		123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */; };
@@ -120,6 +123,9 @@
 		123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorMock.swift; sourceTree = "<group>"; };
 		123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorUnitTests.swift; sourceTree = "<group>"; };
 		123AB5732CC7ECEF00E6D8DA /* RegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterForm.swift; sourceTree = "<group>"; };
+		123AB5752CC7F0AC00E6D8DA /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterServiceMock.swift; sourceTree = "<group>"; };
+		123AB57B2CC7F10400E6D8DA /* RegisterServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterServiceProtocol.swift; sourceTree = "<group>"; };
 		123F7D622CB56ECE00864DF0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		123F7D6A2CB5777800864DF0 /* FLLoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLoginForm.swift; sourceTree = "<group>"; };
 		123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLLightShadow.swift; sourceTree = "<group>"; };
@@ -203,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */,
+				123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -219,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */,
+				123AB57B2CC7F10400E6D8DA /* RegisterServiceProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 		123AB5652CC6A53200E6D8DA /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				123AB5752CC7F0AC00E6D8DA /* RegisterService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -708,12 +717,14 @@
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
 				12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */,
 				12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */,
+				123AB57C2CC7F10400E6D8DA /* RegisterServiceProtocol.swift in Sources */,
 				121D700B2CB6AC7F00D58AC8 /* LoginConstants.swift in Sources */,
 				123AB55B2CC69F0300E6D8DA /* LoginViewModel.swift in Sources */,
 				123F7D712CB57A3A00864DF0 /* FLLightShadow.swift in Sources */,
 				12DCF73D2CB00964003C4E91 /* FLButton.swift in Sources */,
 				12DCF74B2CB00A86003C4E91 /* FLContentText.swift in Sources */,
 				123F7D732CB57F8400864DF0 /* FLSimpleButton.swift in Sources */,
+				123AB5762CC7F0AC00E6D8DA /* RegisterService.swift in Sources */,
 				12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */,
 				123AB5672CC6A56D00E6D8DA /* FormValidator.swift in Sources */,
 				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
@@ -748,6 +759,7 @@
 			files = (
 				12CE5CF32CB55425008D47FA /* FeedUnitTests.swift in Sources */,
 				123F7D782CB5865A00864DF0 /* UIConstantsUnitTests.swift in Sources */,
+				123AB57A2CC7F0F300E6D8DA /* RegisterServiceMock.swift in Sources */,
 				121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */,
 				12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */,
 				123AB5702CC6AD2600E6D8DA /* FormValidatorUnitTests.swift in Sources */,
