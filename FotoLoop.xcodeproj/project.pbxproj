@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1204B9C02CC918090073DECA /* FLErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204B9BF2CC918090073DECA /* FLErrors.swift */; };
+		1204B9C32CC91A330073DECA /* RegisterServiceUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204B9C22CC91A330073DECA /* RegisterServiceUnitTests.swift */; };
 		12092C542CB7E85400F30358 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C532CB7E85400F30358 /* NavigationViewModel.swift */; };
 		12092C562CB7E88B00F30358 /* NavigationStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C552CB7E88B00F30358 /* NavigationStates.swift */; };
 		12092C5A2CB7EC8500F30358 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C592CB7EC8500F30358 /* MainNavigation.swift */; };
@@ -111,6 +112,7 @@
 
 /* Begin PBXFileReference section */
 		1204B9BF2CC918090073DECA /* FLErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLErrors.swift; sourceTree = "<group>"; };
+		1204B9C22CC91A330073DECA /* RegisterServiceUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterServiceUnitTests.swift; sourceTree = "<group>"; };
 		12092C532CB7E85400F30358 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
 		12092C552CB7E88B00F30358 /* NavigationStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStates.swift; sourceTree = "<group>"; };
 		12092C592CB7EC8500F30358 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
@@ -223,6 +225,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1204B9C12CC91A210073DECA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1204B9C22CC91A330073DECA /* RegisterServiceUnitTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		12092C5B2CB7F6DA00F30358 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +322,7 @@
 		12CE5CE92CB553BC008D47FA /* FotoLoopUnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				1204B9C12CC91A210073DECA /* Services */,
 				123AB56C2CC6ACF300E6D8DA /* Validators */,
 				12092C5B2CB7F6DA00F30358 /* Mocks */,
 				121D70072CB6A34500D58AC8 /* UtilsUnitTests */,
@@ -816,6 +827,7 @@
 				12092C652CB8164E00F30358 /* LoginConstantsUnitTests.swift in Sources */,
 				12092C672CB8168600F30358 /* RegisterConstantsUnitTests.swift in Sources */,
 				12CE5CFC2CB55469008D47FA /* CreatePostUnitTests.swift in Sources */,
+				1204B9C32CC91A330073DECA /* RegisterServiceUnitTests.swift in Sources */,
 				123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
