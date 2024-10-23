@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import FirebaseAuth
 
 class RegisterService: RegisterServiceProtocol{
-    func registerUser(_ user: User) {
+
+    func registerUser(_ user: User) async throws {
         // Insert real code here
+        
     }
 }
