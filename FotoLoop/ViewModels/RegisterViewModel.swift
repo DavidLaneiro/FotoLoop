@@ -11,7 +11,7 @@ class RegisterViewModel: ObservableObject {
 
     // Variables
     var formValidator: FormValidatorProtocol
-    var registerService : RegisterServiceProtocol
+    var registerService: RegisterServiceProtocol
 
     // Init with a form validator
     init(formValidator: FormValidatorProtocol, registerService: RegisterServiceProtocol) {

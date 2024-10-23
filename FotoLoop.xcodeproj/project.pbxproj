@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1204B9C02CC918090073DECA /* FLErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204B9BF2CC918090073DECA /* FLErrors.swift */; };
 		12092C542CB7E85400F30358 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C532CB7E85400F30358 /* NavigationViewModel.swift */; };
 		12092C562CB7E88B00F30358 /* NavigationStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C552CB7E88B00F30358 /* NavigationStates.swift */; };
 		12092C5A2CB7EC8500F30358 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12092C592CB7EC8500F30358 /* MainNavigation.swift */; };
@@ -109,6 +110,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1204B9BF2CC918090073DECA /* FLErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLErrors.swift; sourceTree = "<group>"; };
 		12092C532CB7E85400F30358 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
 		12092C552CB7E88B00F30358 /* NavigationStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStates.swift; sourceTree = "<group>"; };
 		12092C592CB7EC8500F30358 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				12092C552CB7E88B00F30358 /* NavigationStates.swift */,
+				1204B9BF2CC918090073DECA /* FLErrors.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -775,6 +778,7 @@
 				123AB5592CC69BF900E6D8DA /* Post.swift in Sources */,
 				12DCF7432CB009B8003C4E91 /* FLPost.swift in Sources */,
 				12DCF7552CB02A23003C4E91 /* FLLogo.swift in Sources */,
+				1204B9C02CC918090073DECA /* FLErrors.swift in Sources */,
 				12DCF76E2CB433DC003C4E91 /* FLTextFieldStyle.swift in Sources */,
 				12092C562CB7E88B00F30358 /* NavigationStates.swift in Sources */,
 				12DCF73B2CB0094E003C4E91 /* FLTextField.swift in Sources */,

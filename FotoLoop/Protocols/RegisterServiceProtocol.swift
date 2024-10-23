@@ -7,8 +7,8 @@
 
 import Foundation
 
-protocol RegisterServiceProtocol{
-    
-    func registerUser(_ user: User) async throws
-    
+protocol RegisterServiceProtocol {
+
+    func registerUser(_ registerUserForm: RegisterForm) async throws
+
 }
