@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol FormValidatorProtocol {
+protocol RegisterFormValidatorProtocol {
     func validateUsername(_ username: String) -> Bool
     func validateEmail(_ email: String) -> Bool
     func validateFirstName(_ firstName: String) -> Bool

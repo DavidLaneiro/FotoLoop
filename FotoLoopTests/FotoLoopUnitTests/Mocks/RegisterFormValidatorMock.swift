@@ -8,7 +8,7 @@
 import Foundation
 @testable import FotoLoop
 
-class FormValidatorMock: FormValidatorProtocol {
+class RegisterFormValidatorMock: RegisterFormValidatorProtocol {
 
     func validateUsername(_ username: String) -> Bool {
         // Validate username code

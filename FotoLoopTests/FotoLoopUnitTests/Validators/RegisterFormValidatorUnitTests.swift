@@ -10,13 +10,13 @@ import XCTest
 
 // MARK: For this Demo App this test data provided is enough
 
-final class FormValidatorUnitTests: XCTestCase {
+final class RegisterFormValidatorUnitTests: XCTestCase {
 
-    var sut: FormValidator!
+    var sut: RegisterFormValidator!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        sut = FormValidator()
+        sut = RegisterFormValidator()
 
     }
 

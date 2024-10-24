@@ -32,10 +32,10 @@
 		123AB55F2CC69F1D00E6D8DA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB55E2CC69F1D00E6D8DA /* FeedViewModel.swift */; };
 		123AB5612CC69F2800E6D8DA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5602CC69F2800E6D8DA /* ProfileViewModel.swift */; };
 		123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */; };
-		123AB5672CC6A56D00E6D8DA /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5662CC6A56D00E6D8DA /* FormValidator.swift */; };
-		123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */; };
-		123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */; };
-		123AB5702CC6AD2600E6D8DA /* FormValidatorUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */; };
+		123AB5672CC6A56D00E6D8DA /* RegisterFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5662CC6A56D00E6D8DA /* RegisterFormValidator.swift */; };
+		123AB5692CC6A5C200E6D8DA /* RegisterFormValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5682CC6A5C200E6D8DA /* RegisterFormValidatorProtocol.swift */; };
+		123AB56B2CC6A9A800E6D8DA /* RegisterFormValidatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56A2CC6A9A800E6D8DA /* RegisterFormValidatorMock.swift */; };
+		123AB5702CC6AD2600E6D8DA /* RegisterFormValidatorUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB56F2CC6AD2600E6D8DA /* RegisterFormValidatorUnitTests.swift */; };
 		123AB5742CC7ECEF00E6D8DA /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5732CC7ECEF00E6D8DA /* RegisterForm.swift */; };
 		123AB5762CC7F0AC00E6D8DA /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5752CC7F0AC00E6D8DA /* RegisterService.swift */; };
 		123AB57A2CC7F0F300E6D8DA /* RegisterServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */; };
@@ -136,10 +136,10 @@
 		123AB55E2CC69F1D00E6D8DA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		123AB5602CC69F2800E6D8DA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		123AB5622CC69F5100E6D8DA /* CreatePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewModel.swift; sourceTree = "<group>"; };
-		123AB5662CC6A56D00E6D8DA /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
-		123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorProtocol.swift; sourceTree = "<group>"; };
-		123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorMock.swift; sourceTree = "<group>"; };
-		123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidatorUnitTests.swift; sourceTree = "<group>"; };
+		123AB5662CC6A56D00E6D8DA /* RegisterFormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormValidator.swift; sourceTree = "<group>"; };
+		123AB5682CC6A5C200E6D8DA /* RegisterFormValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormValidatorProtocol.swift; sourceTree = "<group>"; };
+		123AB56A2CC6A9A800E6D8DA /* RegisterFormValidatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormValidatorMock.swift; sourceTree = "<group>"; };
+		123AB56F2CC6AD2600E6D8DA /* RegisterFormValidatorUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormValidatorUnitTests.swift; sourceTree = "<group>"; };
 		123AB5732CC7ECEF00E6D8DA /* RegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterForm.swift; sourceTree = "<group>"; };
 		123AB5752CC7F0AC00E6D8DA /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
 		123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterServiceMock.swift; sourceTree = "<group>"; };
@@ -249,7 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				12EE11832CCA562B00CAC154 /* ServicesMocks */,
-				123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */,
+				123AB56A2CC6A9A800E6D8DA /* RegisterFormValidatorMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 		12092C5F2CB8081000F30358 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				123AB5682CC6A5C200E6D8DA /* FormValidatorProtocol.swift */,
+				123AB5682CC6A5C200E6D8DA /* RegisterFormValidatorProtocol.swift */,
 				123AB57B2CC7F10400E6D8DA /* RegisterServiceProtocol.swift */,
 				12EE11772CCA4EE200CAC154 /* AuthServiceProtocol.swift */,
 				12EE11792CCA4EFC00CAC154 /* FirestoreServiceProtocol.swift */,
@@ -293,7 +293,7 @@
 		123AB5642CC6A52A00E6D8DA /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				123AB5662CC6A56D00E6D8DA /* FormValidator.swift */,
+				123AB5662CC6A56D00E6D8DA /* RegisterFormValidator.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 		123AB56C2CC6ACF300E6D8DA /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				123AB56F2CC6AD2600E6D8DA /* FormValidatorUnitTests.swift */,
+				123AB56F2CC6AD2600E6D8DA /* RegisterFormValidatorUnitTests.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -783,7 +783,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123AB5692CC6A5C200E6D8DA /* FormValidatorProtocol.swift in Sources */,
+				123AB5692CC6A5C200E6D8DA /* RegisterFormValidatorProtocol.swift in Sources */,
 				123AB5742CC7ECEF00E6D8DA /* RegisterForm.swift in Sources */,
 				123AB55F2CC69F1D00E6D8DA /* FeedViewModel.swift in Sources */,
 				12DCF7322CB003C0003C4E91 /* CreatePost.swift in Sources */,
@@ -806,7 +806,7 @@
 				123F7D732CB57F8400864DF0 /* FLSimpleButton.swift in Sources */,
 				123AB5762CC7F0AC00E6D8DA /* RegisterService.swift in Sources */,
 				12DCF7382CB00762003C4E91 /* ColorsUtils.swift in Sources */,
-				123AB5672CC6A56D00E6D8DA /* FormValidator.swift in Sources */,
+				123AB5672CC6A56D00E6D8DA /* RegisterFormValidator.swift in Sources */,
 				12DCF7302CB00389003C4E91 /* Profile.swift in Sources */,
 				123F7D6B2CB5777800864DF0 /* FLLoginForm.swift in Sources */,
 				12DCF7342CB003C9003C4E91 /* EditProfile.swift in Sources */,
@@ -846,7 +846,7 @@
 				123AB57A2CC7F0F300E6D8DA /* RegisterServiceMock.swift in Sources */,
 				121D70092CB6A36100D58AC8 /* FLStringsUnitTests.swift in Sources */,
 				12CE5CF12CB55414008D47FA /* PostDetailsUnitTests.swift in Sources */,
-				123AB5702CC6AD2600E6D8DA /* FormValidatorUnitTests.swift in Sources */,
+				123AB5702CC6AD2600E6D8DA /* RegisterFormValidatorUnitTests.swift in Sources */,
 				12CE5CEF2CB553FE008D47FA /* RegisterUnitTests.swift in Sources */,
 				123F7D7A2CB588EC00864DF0 /* ColorsUnitTests.swift in Sources */,
 				12DCF7062CAFFEA7003C4E91 /* FotoLoopTests.swift in Sources */,
@@ -859,7 +859,7 @@
 				12092C672CB8168600F30358 /* RegisterConstantsUnitTests.swift in Sources */,
 				12CE5CFC2CB55469008D47FA /* CreatePostUnitTests.swift in Sources */,
 				1204B9C32CC91A330073DECA /* RegisterServiceUnitTests.swift in Sources */,
-				123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */,
+				123AB56B2CC6A9A800E6D8DA /* RegisterFormValidatorMock.swift in Sources */,
 				12EE11802CCA52BD00CAC154 /* AuthServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
