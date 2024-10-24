@@ -12,7 +12,17 @@ class AuthService : AuthServiceProtocol{
     
     // Real implementation
     func createUser(_ email: String, _ password: String) async throws -> String {
-        let authResult = try await Auth.auth().createUser(withEmail: email, password: password)
-        return authResult.user.uid
+        
+        do{
+            
+            let authResult = try await Auth.auth().createUser(withEmail: email, password: password)
+            
+            return authResult.user.uid
+            
+        }catch(let error as FLErrors){
+            
+            throw FLErrors.signUpError(message: error.localizedDescription)
+            
+        }
     }
 }

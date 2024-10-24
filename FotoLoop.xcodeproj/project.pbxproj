@@ -248,10 +248,8 @@
 		12092C5B2CB7F6DA00F30358 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				12EE11832CCA562B00CAC154 /* ServicesMocks */,
 				123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */,
-				123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */,
-				12EE117F2CCA52BD00CAC154 /* AuthServiceMock.swift */,
-				12EE11812CCA52C900CAC154 /* FirestoreServiceMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -608,6 +606,16 @@
 				123F7D702CB57A3A00864DF0 /* FLLightShadow.swift */,
 			);
 			path = UIUtils;
+			sourceTree = "<group>";
+		};
+		12EE11832CCA562B00CAC154 /* ServicesMocks */ = {
+			isa = PBXGroup;
+			children = (
+				123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */,
+				12EE11812CCA52C900CAC154 /* FirestoreServiceMock.swift */,
+				12EE117F2CCA52BD00CAC154 /* AuthServiceMock.swift */,
+			);
+			path = ServicesMocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
