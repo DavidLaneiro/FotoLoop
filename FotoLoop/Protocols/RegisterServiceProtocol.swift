@@ -9,6 +9,6 @@ import Foundation
 
 protocol RegisterServiceProtocol {
 
-    func registerUser(_ registerUserForm: RegisterForm) async throws
+    func registerUser(_ registerUserForm: RegisterForm) async throws -> String
 
 }

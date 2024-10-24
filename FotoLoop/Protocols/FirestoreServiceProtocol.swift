@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol FirestoreServiceProtocol{
-    func saveUserData(_ userID: String,_ documentData: [String : Any]) async throws
+protocol FirestoreServiceProtocol {
+    func saveUserData(_ userID: String, _ documentData: [String: Any]) async throws
 }

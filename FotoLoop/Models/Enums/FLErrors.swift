@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum FLErrors : Error, LocalizedError{
-    
+enum FLErrors: Error, LocalizedError {
+
     case signUpError(message: String)
 
     var errorDescription: String? {
@@ -17,5 +17,5 @@ enum FLErrors : Error, LocalizedError{
             return "Sign up error -> \(message)"
         }
     }
-    
+
 }

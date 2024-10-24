@@ -8,13 +8,13 @@
 import Foundation
 @testable import FotoLoop
 
-class FirestoreServiceMock : FirestoreServiceProtocol{
-    
-    // Mock implementation
-    var shouldReturnError : Bool = false
+class FirestoreServiceMock: FirestoreServiceProtocol {
 
-    func saveUserData(_ userID: String, _ documentData: [String : Any]) async throws {
-        if shouldReturnError{
+    // Mock implementation
+    var shouldReturnError: Bool = false
+
+    func saveUserData(_ userID: String, _ documentData: [String: Any]) async throws {
+        if shouldReturnError {
             throw FLErrors.signUpError(message: "Error saving user data.")
         }
     }

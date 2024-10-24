@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol AuthServiceProtocol{
+protocol AuthServiceProtocol {
     func createUser(_ email: String, _ password: String) async throws -> String
 }

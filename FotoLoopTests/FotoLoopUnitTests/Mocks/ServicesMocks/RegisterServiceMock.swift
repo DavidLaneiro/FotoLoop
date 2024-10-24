@@ -9,9 +9,10 @@ import Foundation
 @testable import FotoLoop
 
 class RegisterServiceMock: RegisterServiceProtocol {
-    
-    func registerUser(_ registerUserForm: RegisterForm) async throws {
-        
+
+    func registerUser(_ registerUserForm: RegisterForm) async throws -> String {
+
         // Insert mock code here
+        return ""
     }
 }
