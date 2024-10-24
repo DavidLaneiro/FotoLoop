@@ -42,7 +42,7 @@ final class RegisterServiceUnitTests: XCTestCase {
         // Act & Assert
         do {
 
-          let mockUserID = try await sut.registerUser(registerForm)
+            _ = try await sut.registerUser(registerForm)
           XCTFail("An error was expected.")
 
         } catch let error as FLErrors {
@@ -62,7 +62,7 @@ final class RegisterServiceUnitTests: XCTestCase {
         // Act & Assert
         do {
 
-          let mockUserID = try await sut.registerUser(registerForm)
+            _ = try await sut.registerUser(registerForm)
           XCTFail("An error was expected.")
 
         } catch let error as FLErrors {
@@ -86,7 +86,7 @@ final class RegisterServiceUnitTests: XCTestCase {
 
           XCTAssertTrue(isUserIDEqual,
                         "The expected id: \(expectedUserMockID) should be equal to the id received: \(mockUserID)")
-
+            
         } catch let error as FLErrors {
 
             XCTFail("An error was not expected, error: \(error.localizedDescription)")
