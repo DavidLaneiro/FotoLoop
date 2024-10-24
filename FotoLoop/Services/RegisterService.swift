@@ -23,7 +23,6 @@ class RegisterService: RegisterServiceProtocol {
         
         // Create a do catch to get the errors
         do{
-            
             // Get the id provided by firebase
             let userID = try await authService.createUser(registerUserForm.email, registerUserForm.password)
             

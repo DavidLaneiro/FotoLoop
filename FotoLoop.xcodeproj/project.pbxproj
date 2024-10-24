@@ -93,6 +93,10 @@
 		12DCF76E2CB433DC003C4E91 /* FLTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCF76D2CB433DC003C4E91 /* FLTextFieldStyle.swift */; };
 		12EE11782CCA4EE200CAC154 /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE11772CCA4EE200CAC154 /* AuthServiceProtocol.swift */; };
 		12EE117A2CCA4EFC00CAC154 /* FirestoreServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE11792CCA4EFC00CAC154 /* FirestoreServiceProtocol.swift */; };
+		12EE117C2CCA51A300CAC154 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE117B2CCA51A300CAC154 /* AuthService.swift */; };
+		12EE117E2CCA51B200CAC154 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE117D2CCA51B200CAC154 /* FirestoreService.swift */; };
+		12EE11802CCA52BD00CAC154 /* AuthServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE117F2CCA52BD00CAC154 /* AuthServiceMock.swift */; };
+		12EE11822CCA52C900CAC154 /* FirestoreServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE11812CCA52C900CAC154 /* FirestoreServiceMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +200,10 @@
 		12DCF76D2CB433DC003C4E91 /* FLTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTextFieldStyle.swift; sourceTree = "<group>"; };
 		12EE11772CCA4EE200CAC154 /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
 		12EE11792CCA4EFC00CAC154 /* FirestoreServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreServiceProtocol.swift; sourceTree = "<group>"; };
+		12EE117B2CCA51A300CAC154 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		12EE117D2CCA51B200CAC154 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		12EE117F2CCA52BD00CAC154 /* AuthServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceMock.swift; sourceTree = "<group>"; };
+		12EE11812CCA52C900CAC154 /* FirestoreServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreServiceMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +250,8 @@
 			children = (
 				123AB56A2CC6A9A800E6D8DA /* FormValidatorMock.swift */,
 				123AB5792CC7F0F300E6D8DA /* RegisterServiceMock.swift */,
+				12EE117F2CCA52BD00CAC154 /* AuthServiceMock.swift */,
+				12EE11812CCA52C900CAC154 /* FirestoreServiceMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -294,6 +304,8 @@
 			isa = PBXGroup;
 			children = (
 				123AB5752CC7F0AC00E6D8DA /* RegisterService.swift */,
+				12EE117B2CCA51A300CAC154 /* AuthService.swift */,
+				12EE117D2CCA51B200CAC154 /* FirestoreService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -770,8 +782,10 @@
 				123AB5632CC69F5100E6D8DA /* CreatePostViewModel.swift in Sources */,
 				12DCF7452CB009CA003C4E91 /* FLImagePicker.swift in Sources */,
 				12DCF7362CB00435003C4E91 /* Colors.swift in Sources */,
+				12EE117C2CCA51A300CAC154 /* AuthService.swift in Sources */,
 				12092C5A2CB7EC8500F30358 /* MainNavigation.swift in Sources */,
 				123AB55D2CC69F0C00E6D8DA /* RegisterViewModel.swift in Sources */,
+				12EE117E2CCA51B200CAC154 /* FirestoreService.swift in Sources */,
 				12DCF72A2CB00370003C4E91 /* Login.swift in Sources */,
 				12DCF73F2CB00970003C4E91 /* FLOutlinedButton.swift in Sources */,
 				12DCF74E2CB00B39003C4E91 /* Tabs.swift in Sources */,
@@ -830,6 +844,7 @@
 				12DCF7062CAFFEA7003C4E91 /* FotoLoopTests.swift in Sources */,
 				12CE5CF72CB55441008D47FA /* ProfileUnitTests.swift in Sources */,
 				12CE5CED2CB553F2008D47FA /* LoginUnitTests.swift in Sources */,
+				12EE11822CCA52C900CAC154 /* FirestoreServiceMock.swift in Sources */,
 				12CE5CF52CB55430008D47FA /* TabsUnitTests.swift in Sources */,
 				12CE5CFA2CB5545E008D47FA /* EditProfileUnitTests.swift in Sources */,
 				12092C652CB8164E00F30358 /* LoginConstantsUnitTests.swift in Sources */,
@@ -837,6 +852,7 @@
 				12CE5CFC2CB55469008D47FA /* CreatePostUnitTests.swift in Sources */,
 				1204B9C32CC91A330073DECA /* RegisterServiceUnitTests.swift in Sources */,
 				123AB56B2CC6A9A800E6D8DA /* FormValidatorMock.swift in Sources */,
+				12EE11802CCA52BD00CAC154 /* AuthServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,5 +8,5 @@
 import Foundation
 
 protocol AuthServiceProtocol{
-    func createUser(_ withEmail: String, _ password: String) async throws -> String
+    func createUser(_ email: String, _ password: String) async throws -> String
 }
