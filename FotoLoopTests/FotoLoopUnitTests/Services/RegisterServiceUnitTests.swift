@@ -50,6 +50,11 @@ final class RegisterServiceUnitTests: XCTestCase {
             XCTAssertEqual(error.localizedDescription, expectedError,
                            "The error \(error) shoud be equal to: \(expectedError)")
 
+        } catch {
+            
+            XCTAssertEqual(error.localizedDescription, expectedError,
+                           "The error \(error) shoud be equal to: \(expectedError)")
+            
         }
 
     }
@@ -70,6 +75,11 @@ final class RegisterServiceUnitTests: XCTestCase {
             XCTAssertEqual(error.localizedDescription, expectedError,
                            "The error \(error) shoud be equal to: \(expectedError)")
 
+        } catch {
+            
+            XCTAssertEqual(error.localizedDescription, expectedError,
+                           "The error \(error) shoud be equal to: \(expectedError)")
+            
         }
     }
 
@@ -91,6 +101,10 @@ final class RegisterServiceUnitTests: XCTestCase {
 
             XCTFail("An error was not expected, error: \(error.localizedDescription)")
 
+        }  catch {
+            
+            XCTFail("An error was not expected, error: \(error.localizedDescription)")
+            
         }
     }
 

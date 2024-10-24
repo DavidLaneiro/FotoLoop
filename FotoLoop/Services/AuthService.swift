@@ -15,7 +15,7 @@ class AuthService: AuthServiceProtocol {
 
         do {
 
-            let authResult = try await Auth.auth().createUser(withEmail: email, password: password)
+            let authResult = try await Auth.auth().createUser(withEmail: email, password: password) // Can´t mock firebase due to privacy limitations
 
             return authResult.user.uid
 

@@ -17,7 +17,7 @@ class FirestoreService: FirestoreServiceProtocol {
 
         do {
 
-            try await dataBase.collection("users").document(userID).setData(documentData)
+            try await dataBase.collection("users").document(userID).setData(documentData) // Can´t mock firebase due to privacy limitations
 
         } catch let error as FLErrors {
 
